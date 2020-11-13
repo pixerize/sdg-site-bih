@@ -129,7 +129,7 @@ menu:
   - path: /news
     translation_key: menu.updates
   - path: /1-1-1
-    translation_key: menu.covid
+    translation_key: custom.covid
 
 footer_menu:
   - path: mailto:my-email-address@example.com

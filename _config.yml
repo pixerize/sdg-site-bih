@@ -128,6 +128,8 @@ menu:
     translation_key: menu.faq
   - path: /news
     translation_key: menu.updates
+  - path: /1-1-1
+    translation_key: menu.covid
 
 footer_menu:
   - path: mailto:my-email-address@example.com

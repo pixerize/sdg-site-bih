@@ -20,7 +20,9 @@ metadata_edit_url: http://prose.io/#pixerize/sdg-data-bosnia/edit/develop/meta/[
 # The list of languages that are translated. The first one is the default.
 languages:
   - en
-  - es
+  - bs
+  - sr
+  - hr
 #
 # That's enough for the Quick Start! The remaining settings can be configured later.
 

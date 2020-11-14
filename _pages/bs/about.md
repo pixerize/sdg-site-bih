@@ -1,7 +1,7 @@
 ---
 title: About
 language: bs
-permalink: /about/
+permalink: /bs/about/
 layout: page
 ---
 

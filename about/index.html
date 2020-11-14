@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://pixerize.github.io/sdg-data-bosnia/en',
+  remoteDataBaseUrl: 'https://pixerize.github.io/sdg-data-bosnia/bs',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,7 +26,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'bs',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -121,7 +121,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20201114085433">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20201114085602">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-page">
+<body class="language-bs layout-page">
 <!-- <div class="container"> -->
 
 <script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
@@ -153,7 +153,7 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/" id="home">
+      <a class="navbar-brand" href="/bs/" id="home">
         <img src="/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
       </a>
 
@@ -163,11 +163,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Bosanski</span>
+      <span class="language-abbreviation">bs</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/bs/about/">
-              
+            <a href="/about/">
+              Engleski
             </a>
           </li></ul>
   </div>
@@ -184,19 +184,19 @@ var translations = {
             aria-haspopup="true">
           <button data-target="menu-mobile" aria-expanded="false">Menu</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/bs/goals">Goals</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/bs/reporting-status">Reporting Status</a>
     </li><li class="nav-link active">
-    <a href="/about">About</a>
+    <a href="/bs/about">About</a>
     </li><li class="nav-link ">
-    <a href="/guidance">Guidance</a>
+    <a href="/bs/guidance">Guidance</a>
     </li><li class="nav-link ">
-    <a href="/faq">FAQ</a>
+    <a href="/bs/faq">FAQ</a>
     </li><li class="nav-link ">
-    <a href="/news">Updates</a>
+    <a href="/bs/news">Updates</a>
     </li><li class="nav-link ">
-    <a href="/1-1-1">COVID-19</a>
+    <a href="/bs/1-1-1">COVID-19</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -208,11 +208,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Bosanski</span>
+      <span class="language-abbreviation">bs</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/bs/about/">
-              
+            <a href="/about/">
+              Engleski
             </a>
           </li></ul>
   </div>
@@ -228,7 +228,7 @@ var translations = {
             aria-haspopup="true">
           <button data-target="search-mobile" aria-expanded="false">Search</button>
           <div id="search-mobile" class="menu-target">
-  <form action="/search">
+  <form action="/bs/search">
     <input type="text" name="q" id="indicator_search-mobile" title="Search" />
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -239,7 +239,7 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/search">
+  <form action="/bs/search">
     <input type="text" name="q" id="indicator_search" title="Search" />
     <label class="sr-only" for="indicator_search">Search</label>
     <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -248,19 +248,19 @@ var translations = {
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/bs/goals">Goals</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/bs/reporting-status">Reporting Status</a>
     </li><li class="nav-link active">
-    <a href="/about">About</a>
+    <a href="/bs/about">About</a>
     </li><li class="nav-link ">
-    <a href="/guidance">Guidance</a>
+    <a href="/bs/guidance">Guidance</a>
     </li><li class="nav-link ">
-    <a href="/faq">FAQ</a>
+    <a href="/bs/faq">FAQ</a>
     </li><li class="nav-link ">
-    <a href="/news">Updates</a>
+    <a href="/bs/news">Updates</a>
     </li><li class="nav-link ">
-    <a href="/1-1-1">COVID-19</a>
+    <a href="/bs/1-1-1">COVID-19</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -272,11 +272,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Bosanski</span>
+      <span class="language-abbreviation">bs</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/bs/about/">
-              
+            <a href="/about/">
+              Engleski
             </a>
           </li></ul>
   </div>
@@ -333,7 +333,7 @@ var translations = {
                 
                 </li>
               <li>
-                <a href="/about/cookies-and-privacy/">Cookies</a>
+                <a href="/bs/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
@@ -369,7 +369,7 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20201114085433'></script>
+<script src='/assets/js/sdg.js?v=20201114085602'></script>
 
 <script>
 $(function() {

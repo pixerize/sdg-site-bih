@@ -55,6 +55,8 @@ create_pages:
       layout: indicator-json
     - folder: /search
       layout: search
+    - folder: /publications
+      layout: publications
 
 analytics:
   ga_prod: ''
@@ -115,16 +117,14 @@ menu:
     translation_key: menu.faq
   - path: /news
     translation_key: menu.updates
+  - path: /publications
+    translation_key: menu.publications
   - path: /1-1-1
     translation_key: custom.covid
 
 footer_menu:
   - path: mailto:my-email-address@example.com
     translation_key: menu.contact_us
-  - path: https://twitter.com/MyTwitterAccount
-    translation_key: general.twitter
-  - path: https://facebook.com/MyFacebookAccount
-    translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
 

@@ -55,8 +55,6 @@ create_pages:
       layout: indicator-json
     - folder: /search
       layout: search
-    - folder: /publications
-      layout: publications
 
 analytics:
   ga_prod: ''

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Contact
-language: bs
-permalink: /bs/contact/
+language: sr
+permalink: /sr/contact/
 ---
 ### We are interested in your feedback regarding this website and its contents.
 

@@ -47,7 +47,7 @@
         },
         {
           "id": "1-4-2",
-          "title": "Proportion of total adult population with secure tenure rights to land, with legally recognized documentation, and who perceive their rights to land as secure, by sex and by type of tenure",
+          "title": "Udio ukupne populacije odraslih osoba koje imaju sigurna zemljišna prava, (a) sa zakonski priznatom dokumentacijom, i (b) koji smatraju da su njihova zemljišna prava sigurna, po spolu i vrsti prava na zemlji",
           "description": "",
           "keywords": "",
           "href": "/bs/1-4-2",
@@ -102,16 +102,8 @@
           "status": "notstarted"
         },
         {
-          "id": "1-a-3",
-          "title": "Sum of total grants and non-debt-creating inflows directly allocated to poverty reduction programmes as a proportion of GDP",
-          "description": "",
-          "keywords": "",
-          "href": "/bs/1-a-3",
-          "status": "notstarted"
-        },
-        {
           "id": "1-b-1",
-          "title": "Proportion of government recurrent and capital spending to sectors that disproportionately benefit women, the poor and vulnerable groups",
+          "title": "Javna socijalna potrošnja u korist siromašnih",
           "description": "",
           "keywords": "",
           "href": "/bs/1-b-1",
@@ -175,7 +167,7 @@
         },
         {
           "id": "2-4-1",
-          "title": "Proportion of agricultural area under productive and sustainable agriculture",
+          "title": "Udio poljoprivrednog zemljišta pod produktivnom i održivom poljoprivrednom djelatnošću",
           "description": "",
           "keywords": "",
           "href": "/bs/2-4-1",
@@ -431,7 +423,7 @@
         },
         {
           "id": "3-b-3",
-          "title": "Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis",
+          "title": "Udio zdravstvenih ustanova koje imaju osnovni paket relevantnih esencijalnih lijekova koji su priuštivi i dostupni na održivoj osnovi",
           "description": "",
           "keywords": "",
           "href": "/bs/3-b-3",
@@ -519,7 +511,7 @@
         },
         {
           "id": "4-7-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "Mjera u kojoj su na svim nivoima integrisani obrazovanje za (i) pripadnost globalnoj zajednici i (ii) održivi razvoj, uključujući i rodnu ravnopravnost i ljudska prava na svim nivoima: (a) nacionalnih obrazovnih politika; (b) kurikuluma; (c) obrazovanja nastavnika; i (d) procjene učenika i studenata",
           "description": "",
           "keywords": "",
           "href": "/bs/4-7-1",
@@ -575,7 +567,7 @@
         },
         {
           "id": "5-2-2",
-          "title": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",
+          "title": "Udio žena i djevojčica starosti 15 godina i više koje su bile izložene seksualnom nasilju od strane osoba koje nisu njihov bliski partner tokom proteklih 12 mjeseci, po starosti i mjestu dešavanja",
           "description": "",
           "keywords": "",
           "href": "/bs/5-2-2",
@@ -926,14 +918,6 @@
           "status": "notstarted"
         },
         {
-          "id": "8-9-2",
-          "title": "Proportion of jobs in sustainable tourism industries out of total tourism jobs",
-          "description": "",
-          "keywords": "",
-          "href": "/bs/8-9-2",
-          "status": "notstarted"
-        },
-        {
           "id": "8-a-1",
           "title": "Pomoć za trgovinske obaveze i isplate",
           "description": "",
@@ -1127,7 +1111,7 @@
         },
         {
           "id": "10-7-1",
-          "title": "Recruitment cost borne by employee as a proportion of yearly income earned in country of destination",
+          "title": "Troškovi zapošljavanja koje snose zaposleni u odnosu na godišnji prihod ostvaren u zemlji odredišta",
           "description": "",
           "keywords": "",
           "href": "/bs/10-7-1",
@@ -1183,7 +1167,7 @@
         },
         {
           "id": "11-2-1",
-          "title": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",
+          "title": "Udio stanovništva koje ima odgovarajući pristup +B171 javnom saobraćaju, po polu, starosti i invaliditetu",
           "description": "",
           "keywords": "",
           "href": "/bs/11-2-1",
@@ -1191,7 +1175,7 @@
         },
         {
           "id": "11-3-1",
-          "title": "Ratio of land consumption rate to population growth rate",
+          "title": "Koeficijent stope korištenja zemljišta u odnosu na stopu rasta stanovništva",
           "description": "",
           "keywords": "",
           "href": "/bs/11-3-1",
@@ -1199,7 +1183,7 @@
         },
         {
           "id": "11-3-2",
-          "title": "Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically",
+          "title": "Udio gradova sa strukturom direktnog učešća civilnih društava u urbanističkom planiranju i upravljanju koje funkcionišu redovno i na demokratski način",
           "description": "",
           "keywords": "",
           "href": "/bs/11-3-2",
@@ -1207,7 +1191,7 @@
         },
         {
           "id": "11-4-1",
-          "title": "Total expenditure (public and private) per capita spent on the preservation, protection and conservation of all cultural and natural heritage, by type of heritage (cultural, natural, mixed and World Heritage Centre designation), level of government (national, regional and local/municipal), type of expenditure (operating expenditure/investment) and type of private funding (donations in kind, private non-profit sector and sponsorship)",
+          "title": "Ukupni izdaci po glavi stanovnika za očuvanje, zaštitu i konzervaciju cjelokupne kulturne i prirodne baštine, po vrstama, vrsti naslijeđa i nivou upravljanja (nacionalni, regionalni i lokalni/općinski)",
           "description": "",
           "keywords": "",
           "href": "/bs/11-4-1",
@@ -1247,7 +1231,7 @@
         },
         {
           "id": "11-7-1",
-          "title": "Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",
+          "title": "Prosječan udio otvorenih javnih površina u izgrađenim površinama gradova, prema spolu, starosti i invaliditetu",
           "description": "",
           "keywords": "",
           "href": "/bs/11-7-1",
@@ -1255,7 +1239,7 @@
         },
         {
           "id": "11-7-2",
-          "title": "Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",
+          "title": "Udio osoba koje su žrtve fizičkog ili seksualnog uznemiravanja, po spolu, starosti, invaliditetu, i mjestu dešavanja, tokom prethodnih 12 mjeseci",
           "description": "",
           "keywords": "",
           "href": "/bs/11-7-2",
@@ -1359,7 +1343,7 @@
         },
         {
           "id": "12-6-1",
-          "title": "Number of companies publishing sustainability reports",
+          "title": "Broj kompanija koje objavljuju izvještaje o održivosti",
           "description": "",
           "keywords": "",
           "href": "/bs/12-6-1",
@@ -1367,7 +1351,7 @@
         },
         {
           "id": "12-7-1",
-          "title": "Number of countries implementing sustainable public procurement policies and action plans",
+          "title": "Stepen održivih politika javnih nabavki i implementacije akcionog plana",
           "description": "",
           "keywords": "",
           "href": "/bs/12-7-1",
@@ -1375,7 +1359,7 @@
         },
         {
           "id": "12-8-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development (including climate change education) are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "Mjera u kojoj su na svim nivoima integrisani obrazovanje za (i) pripadnost globalnoj zajednici i (ii) održivi razvoj, uključujući i rodnu ravnopravnost i ljudska prava na svim nivoima: (a) nacionalnih obrazovnih politika; (b) kurikuluma; (c) obrazovanja nastavnika; i (d) procjene učenika i studenata",
           "description": "",
           "keywords": "",
           "href": "/bs/12-8-1",
@@ -1439,7 +1423,7 @@
         },
         {
           "id": "13-2-1",
-          "title": "Number of countries that have communicated the establishment or operationalization of an integrated policy/strategy/plan which increases their ability to adapt to the adverse impacts of climate change, and foster climate resilience and low greenhouse gas emissions development in a manner that does not threaten food production (including a national adaptation plan, nationally determined contribution, national communication, biennial update report or other)",
+          "title": "Broj zemalja s utvrđenim nacionalnim doprinosima, dugoročnim strategijama, nacionalnim planovima adaptacije, strategijama kako je prijavljeno u komunikacijama o prilagodbi i nacionalnim komunikacijama",
           "description": "",
           "keywords": "",
           "href": "/bs/13-2-1",
@@ -1447,23 +1431,15 @@
         },
         {
           "id": "13-3-1",
-          "title": "Number of countries that have integrated mitigation, adaptation, impact reduction and early warning into primary, secondary and tertiary curricula",
+          "title": "Broj zemalja koje su integrirale pitanja (i) obrazovanja globalnog građanstva i (ii) obrazovanja za održivi razvoj integrirano je u (a) nacionalne obrazovne politike; (b) nastavne programe; (c) obrazovanje nastavnika; i (d) ocjenjivanje učenika",
           "description": "",
           "keywords": "",
           "href": "/bs/13-3-1",
           "status": "notstarted"
         },
         {
-          "id": "13-3-2",
-          "title": "Number of countries that have communicated the strengthening of institutional, systemic and individual capacity-building to implement adaptation, mitigation and technology transfer, and development actions",
-          "description": "",
-          "keywords": "",
-          "href": "/bs/13-3-2",
-          "status": "notstarted"
-        },
-        {
           "id": "13-a-1",
-          "title": "Mobilized amount of United States dollars per year between 2020 and 2025 accountable towards the $100 billion commitment",
+          "title": "Iznos osiguranih i mobilisanih američkih dolara godišnje u odnosu na nastavljeni postojeći kolektivni cilj mobilizacije od 100 milijardi dolara preuzetih obaveza do 2025. godine",
           "description": "",
           "keywords": "",
           "href": "/bs/13-a-1",
@@ -1471,7 +1447,7 @@
         },
         {
           "id": "13-b-1",
-          "title": "Number of least developed countries and small island developing States that are receiving specialized support, and amount of support, including finance, technology and capacity-building, for mechanisms for raising capacities for effective climate change-related planning and management, including focusing on women, youth and local and marginalized communities",
+          "title": "Broj najnerazvijenijih zemalja i malih ostrvskih zemalja u razvoju s utvrđenim nacionalnim doprinosima dugoročnim strategijama, nacionalnim planovima adaptacije, strategijama kako je navedeno u komunikacijskim adaptacijama i nacionalnim komunikacijama",
           "description": "",
           "keywords": "",
           "href": "/bs/13-b-1",
@@ -1495,7 +1471,7 @@
         },
         {
           "id": "14-2-1",
-          "title": "Proportion of national exclusive economic zones managed using ecosystem-based approaches",
+          "title": "Broj zemalja koje koriste pristupe zasnovane na ekosistemima u upravljanju morskim područjima",
           "description": "",
           "keywords": "",
           "href": "/bs/14-2-1",
@@ -1559,7 +1535,7 @@
         },
         {
           "id": "14-c-1",
-          "title": "Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nations Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources",
+          "title": "Broj zemalja koje ostvaruju napredak u ratifikaciji, prihvatanju i provođenju, kroz zakonske, političke, i institucionalne okvire, instrumenata koji se odnose na okeane a služe provođenju međunarodnog prava, onako kako to predviđa Konvencija Ujedinjenih nacija o pomorskom pravu, za očuvanje i održivu upotrebu okeana i njihovih resursa",
           "description": "",
           "keywords": "",
           "href": "/bs/14-c-1",
@@ -1639,7 +1615,7 @@
         },
         {
           "id": "15-7-1",
-          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
+          "title": "Udio divljih vrsta kojima se trguje, a koje potiču iz krivolova ili nezakonite trgovine",
           "description": "",
           "keywords": "",
           "href": "/bs/15-7-1",
@@ -1679,7 +1655,7 @@
         },
         {
           "id": "15-c-1",
-          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
+          "title": "Udio divljih vrsta kojima se trguje, a koje potiču iz krivolova ili nezakonite trgovine",
           "description": "",
           "keywords": "",
           "href": "/bs/15-c-1",
@@ -1767,7 +1743,7 @@
         },
         {
           "id": "16-4-1",
-          "title": "Total value of inward and outward illicit financial flows (in current United States dollars)",
+          "title": "Ukupna vrijednost dolaznih i odlaznih nezakonitih finansijskih tokova (u tekućoj vrijednosti USD)",
           "description": "",
           "keywords": "",
           "href": "/bs/16-4-1",
@@ -1775,7 +1751,7 @@
         },
         {
           "id": "16-4-2",
-          "title": "Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments",
+          "title": "Udio zaplijenjenog, pronađenog i predatog vatrenog oružja za koje su nadležni organi utvrdili nezakonito poreklo ili kontekst u skladu sa međunarodnim instrumentima",
           "description": "",
           "keywords": "",
           "href": "/bs/16-4-2",
@@ -1807,7 +1783,7 @@
         },
         {
           "id": "16-6-2",
-          "title": "Proportion of population satisfied with their last experience of public services",
+          "title": "Udio stanovništva zadovoljnog svojim posljednjim iskustvom u pružanju javnih usluga",
           "description": "",
           "keywords": "",
           "href": "/bs/16-6-2",
@@ -1823,7 +1799,7 @@
         },
         {
           "id": "16-7-2",
-          "title": "Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",
+          "title": "Udio stanovništva koji vjeruje da je donošenje odluka inkluzivno i odgovara na potrebe, po polu, starosti, invaliditetu ili populacionim grupama",
           "description": "",
           "keywords": "",
           "href": "/bs/16-7-2",
@@ -1935,7 +1911,7 @@
         },
         {
           "id": "17-5-1",
-          "title": "Number of countries that adopt and implement investment promotion regimes for least developed countries",
+          "title": "Broj zemalja koje usvajaju i provode režime promocije investicija za zemlje u razvoju, uključujući i najmanje razvijene zemlje",
           "description": "",
           "keywords": "",
           "href": "/bs/17-5-1",
@@ -1951,7 +1927,7 @@
         },
         {
           "id": "17-6-2",
-          "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
+          "title": "global_indicators.17-6-2-title",
           "description": "",
           "keywords": "",
           "href": "/bs/17-6-2",
@@ -1959,7 +1935,7 @@
         },
         {
           "id": "17-7-1",
-          "title": "Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",
+          "title": "Ukupan iznos odobrenog finansiranja za zemlje u razvoju za promovisanje, prijenos i širenje ekološki prihvatljivih tehnologija",
           "description": "",
           "keywords": "",
           "href": "/bs/17-7-1",
@@ -1999,7 +1975,7 @@
         },
         {
           "id": "17-12-1",
-          "title": "Average tariffs faced by developing countries, least developed countries and small island developing States",
+          "title": "Prosječne carine s kojima se suočavaju zemlje u razvoju, najnerazvijenije zemlje, i male ostrvske zemlje u razvoju",
           "description": "",
           "keywords": "",
           "href": "/bs/17-12-1",
@@ -2007,7 +1983,7 @@
         },
         {
           "id": "17-13-1",
-          "title": "Macroeconomic Dashboard",
+          "title": "Glavni makroekonomski pokazatelji",
           "description": "",
           "keywords": "",
           "href": "/bs/17-13-1",
@@ -2015,7 +1991,7 @@
         },
         {
           "id": "17-14-1",
-          "title": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development",
+          "title": "Broj zemalja koje imaju   mehanizme za unapređenje koherentnosti mjera politike za održivi razvoj",
           "description": "",
           "keywords": "",
           "href": "/bs/17-14-1",
@@ -2039,7 +2015,7 @@
         },
         {
           "id": "17-17-1",
-          "title": "Amount of United States dollars committed to public-private and civil society partnerships",
+          "title": "Iznos u američkim dolarima opredijeljen javno-privatnom partnerstvu za infrastrukturu",
           "description": "",
           "keywords": "",
           "href": "/bs/17-17-1",
@@ -2047,7 +2023,7 @@
         },
         {
           "id": "17-18-1",
-          "title": "Proportion of sustainable development indicators produced at the national level with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics",
+          "title": "Indikator statističkih kapaciteta za praćenje ciljeva održivog razvoja",
           "description": "",
           "keywords": "",
           "href": "/bs/17-18-1",

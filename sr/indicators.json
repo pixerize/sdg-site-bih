@@ -451,7 +451,7 @@
           "description": "",
           "keywords": "",
           "href": "/sr/3-d-2",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -467,6 +467,14 @@
           "description": "",
           "keywords": "",
           "href": "/sr/4-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-1-2",
+          "title": "Стопа завршених студија (основно образовање, ниже средње образовање, средње образовање)",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/4-1-2",
           "status": "notstarted"
         },
         {
@@ -1131,6 +1139,22 @@
           "description": "",
           "keywords": "",
           "href": "/sr/10-7-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-3",
+          "title": "Број људи који су умрли или нестали у процесу миграције према међународној дестинацији",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/10-7-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-4",
+          "title": "Удио становништва избјеглица, према земљи поријекла",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/10-7-4",
           "status": "notstarted"
         },
         {

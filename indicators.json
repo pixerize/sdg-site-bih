@@ -451,7 +451,7 @@
           "description": "",
           "keywords": "",
           "href": "/3-d-2",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -467,6 +467,14 @@
           "description": "",
           "keywords": "",
           "href": "/4-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-1-2",
+          "title": "global_indicators.4-1-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/4-1-2",
           "status": "notstarted"
         },
         {
@@ -1131,6 +1139,22 @@
           "description": "",
           "keywords": "",
           "href": "/10-7-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-3",
+          "title": "global_indicators.10-7-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/10-7-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-4",
+          "title": "global_indicators.10-7-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/10-7-4",
           "status": "notstarted"
         },
         {

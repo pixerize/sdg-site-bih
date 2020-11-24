@@ -451,7 +451,7 @@
           "description": "",
           "keywords": "",
           "href": "/bs/3-d-2",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -467,6 +467,14 @@
           "description": "",
           "keywords": "",
           "href": "/bs/4-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-1-2",
+          "title": "Stopa završenih studija (osnovno obrazovanje, niže srednje obrazovanje, srednje obrazovanje)",
+          "description": "",
+          "keywords": "",
+          "href": "/bs/4-1-2",
           "status": "notstarted"
         },
         {
@@ -1131,6 +1139,22 @@
           "description": "",
           "keywords": "",
           "href": "/bs/10-7-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-3",
+          "title": "Broj ljudi koji su umrli ili nestali u procesu migracije prema međunarodnoj destinaciji",
+          "description": "",
+          "keywords": "",
+          "href": "/bs/10-7-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-7-4",
+          "title": "Udio stanovništva izbjeglica, prema zemlji porijekla",
+          "description": "",
+          "keywords": "",
+          "href": "/bs/10-7-4",
           "status": "notstarted"
         },
         {

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" class="no-js">
     <head>
@@ -122,7 +121,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20201124125254">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20201124130853">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -133,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-sr layout-frontpage-alt">
+<body class="language-sr layout-frontpage">
 <!-- <div class="container"> -->
 
 <script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
@@ -309,155 +308,165 @@ var translations = {
 <div id="main-content" class="container" role="main">
 
     
-    <div class="site-intro">
+    <div class="site-intro spacer medium">
         <h1>17 goals to transform our world</h1>
-        <div class="lead-copy"><p>The <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/">Sustainable Development Goals (SDGs)</a> are a universal call to action to end poverty, protect the planet and improve the lives and prospects of everyone, everywhere. The 17 Goals were adopted by all UN Member States in 2015, as part of the <a href="http://www.un.org/ga/search/view_doc.asp?symbol=A/RES/70/1&amp;Lang=E">2030 Agenda for Sustainable Development</a>.</p>
-</div>
+        <p class="lead-copy">The <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/">Sustainable Development Goals (SDGs)</a> are a universal call to action to end poverty, protect the planet and improve the lives and prospects of everyone, everywhere. The 17 Goals were adopted by all UN Member States in 2015, as part of the <a href="http://www.un.org/ga/search/view_doc.asp?symbol=A/RES/70/1&Lang=E">2030 Agenda for Sustainable Development</a>.</p>
     </div>
     
 
     
-    <div class="frontpage-goals-grid">
+    
+    <h2 class="spacer medium">BiH data for Sustainable Development Goal indicators</h2>
 
-        
-        <h2 class="frontpage-goals-grid-title">Our data for Sustainable Development Goal indicators</h2>
-        
+    
+    <p class="spacer medium">Click on each goal, or <span id="jump-to-search"><a> search, </a></span> for BiH statistics for Sustainable Development Goal global indicators.</p>
 
+    <div class="goal-tiles">
+    
+        <div class="row no-gutters">
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/1">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/1.png" id="goal-1" alt="Свијет без сиромаштва - Goal 1" />
+              </a>
+            </div>
         
-        <div class="frontpage-goals-grid-description"><p>Click on each goal for our Sustainable Development Goal global indicator data.</p>
-</div>
+    
         
-
-        <div class="goal-tiles">
-            <div class="row no-gutters">
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/1">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/1.png" id="goal-1" alt="Свијет без сиромаштва - Goal 1" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/2">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/2.png" id="goal-2" alt="Свијет без глади - Goal 2" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/3">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/3.png" id="goal-3" alt="Здравље и благостање - Goal 3" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/4">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/4.png" id="goal-4" alt="Квалитетно образовање - Goal 4" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/5">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/5.png" id="goal-5" alt="Родна равноправност - Goal 5" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/6">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/6.png" id="goal-6" alt="Чиста вода и санитарни услови - Goal 6" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/7">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/7.png" id="goal-7" alt="Приступачна енергија из чистих извора - Goal 7" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/8">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/8.png" id="goal-8" alt="Достојанствен рад и економски раст - Goal 8" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/9">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/9.png" id="goal-9" alt="Индустрија, иновације и инфраструктура - Goal 9" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/10">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/10.png" id="goal-10" alt="Смањење неједнакости - Goal 10" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/11">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/11.png" id="goal-11" alt="Одрживи градови и заједнице - Goal 11" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/12">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/12.png" id="goal-12" alt="Одговорна потрошња и производња - Goal 12" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/13">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/13.png" id="goal-13" alt="Очување климе - Goal 13" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/14">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/14.png" id="goal-14" alt="Очување воденог свијета - Goal 14" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/15">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/15.png" id="goal-15" alt="Очување живота на земљи - Goal 15" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/16">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/16.png" id="goal-16" alt="Мир, правда и снажне институције - Goal 16" />
-                    </a>
-                </div>
-                
-                <div class="col-xs-4 col-sm-2 col-md-1 goal-tile">
-                    <a href="/sr/17">
-                        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/17.png" id="goal-17" alt="Партнерством до циља - Goal 17" />
-                    </a>
-                </div>
-                
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/2">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/2.png" id="goal-2" alt="Свијет без глади - Goal 2" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/3">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/3.png" id="goal-3" alt="Здравље и благостање - Goal 3" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/4">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/4.png" id="goal-4" alt="Квалитетно образовање - Goal 4" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/5">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/5.png" id="goal-5" alt="Родна равноправност - Goal 5" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/6">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/6.png" id="goal-6" alt="Чиста вода и санитарни услови - Goal 6" />
+              </a>
             </div>
         </div>
+    
+        <div class="row no-gutters">
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/7">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/7.png" id="goal-7" alt="Приступачна енергија из чистих извора - Goal 7" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/8">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/8.png" id="goal-8" alt="Достојанствен рад и економски раст - Goal 8" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/9">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/9.png" id="goal-9" alt="Индустрија, иновације и инфраструктура - Goal 9" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/10">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/10.png" id="goal-10" alt="Смањење неједнакости - Goal 10" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/11">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/11.png" id="goal-11" alt="Одрживи градови и заједнице - Goal 11" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/12">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/12.png" id="goal-12" alt="Одговорна потрошња и производња - Goal 12" />
+              </a>
+            </div>
+        </div>
+    
+        <div class="row no-gutters">
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/13">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/13.png" id="goal-13" alt="Очување климе - Goal 13" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/14">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/14.png" id="goal-14" alt="Очување воденог свијета - Goal 14" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/15">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/15.png" id="goal-15" alt="Очување живота на земљи - Goal 15" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/16">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/16.png" id="goal-16" alt="Мир, правда и снажне институције - Goal 16" />
+              </a>
+            </div>
+        
+    
+        
+            <div class="col-xs-4 col-md-2">
+                <a href="/sr/17">
+                  <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/17.png" id="goal-17" alt="Партнерством до циља - Goal 17" />
+              </a>
+            </div>
+        
+    
+    
+    
+        <div class="col-xs-4 col-md-2">
+            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/18.png" id="goal-18" alt="The Global Goals for Sustainable Development" />
+        </div>
+    
     </div>
-    
-
-    
-    <div class="frontpage-cards">
-    
-        
-
-        
-        <div class="row">
-        
-
-        <div class="card col-xs-12 col-sm-6 col-md-4">
-
-  
-  <h2 class="card-title"
-      
-  >Download all data</h2>
-  
-
-  
-
-  
+    </div>
     <div class="zip-download-container">
     <a href="https://pixerize.github.io/sdg-data-bosnia/sr/zip/all_indicators.zip"
        class="btn btn-primary btn-download" aria-describedby="zip-download-info">
@@ -471,21 +480,6 @@ var translations = {
         
     </div>
 </div>
-
-  
-
-  
-
-</div>
-
-
-        
-        </div>
-        
-
-    
-    </div>
-    
 
 </div>
 <footer role="contentinfo">
@@ -538,7 +532,7 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20201124125254'></script>
+<script src='/assets/js/sdg.js?v=20201124130853'></script>
 
 <script>
 $(function() {

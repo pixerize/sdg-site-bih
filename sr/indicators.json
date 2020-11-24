@@ -444,6 +444,14 @@
           "keywords": "",
           "href": "/sr/3-d-1",
           "status": "notstarted"
+        },
+        {
+          "id": "3-d-2",
+          "title": "Проценат инфекција крвотока због одабраних организама отпорних на антимикробне болести",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/3-d-2",
+          "status": "notstarted"
         }]
     }
   },
@@ -1923,14 +1931,6 @@
           "description": "",
           "keywords": "",
           "href": "/sr/17-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-6-2",
-          "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
-          "description": "",
-          "keywords": "",
-          "href": "/sr/17-6-2",
           "status": "notstarted"
         },
         {

@@ -21,6 +21,7 @@ languages:
   - en
   - bs
   - sr
+  - hr
 #
 # That's enough for the Quick Start! The remaining settings can be configured later.
 

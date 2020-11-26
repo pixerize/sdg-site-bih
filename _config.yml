@@ -30,7 +30,7 @@ languages:
 remote_theme: open-sdg/open-sdg@master
 
 # Replace this title as needed.
-title: Indicators For The Sustainable Development Goals
+title: custom.indicator_title
 url: ""
 data_dir: data
 environment: staging
@@ -80,8 +80,8 @@ frontpage_introduction_banner:
   description: frontpage.intro_body
 
 frontpage_goals_grid:
-  title: Our data for Sustainable Development Goal indicators
-  description: Click on each goal for our Sustainable Development Goal global indicator data.
+  title: custom.goal_title
+  description: custom.goal_description
 
 frontpage_cards:
   - title: frontpage.download_all

@@ -113,8 +113,6 @@ menu:
     translation_key: menu.about
   - path: /faq
     translation_key: menu.faq
-  - path: /news
-    translation_key: menu.updates
   - path: /publications
     translation_key: menu.publications
   - path: /1-1-1

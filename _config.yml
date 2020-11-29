@@ -45,7 +45,7 @@ create_goals:
 create_pages:
   pages:
     - folder: /
-      layout: frontpage
+      layout: frontpage-alt
     - folder: /goals
       layout: goals
     - folder: /reporting-status
@@ -115,7 +115,7 @@ menu:
     translation_key: menu.faq
   - path: /publications
     translation_key: menu.publications
-  - path: /18-c
+  - path: /18
     translation_key: custom.covid
 
 footer_menu:

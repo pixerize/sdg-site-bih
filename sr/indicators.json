@@ -2094,11 +2094,107 @@
       "indicators": [
         
         {
-          "id": "18-1-1",
-          "title": "COVID-19 подаци",
+          "id": "18-c-1",
+          "title": "global_indicators.18-c-1-title",
           "description": "",
           "keywords": "",
-          "href": "/sr/18-1-1",
+          "href": "/sr/18-c-1",
+          "status": "complete"
+        },
+        {
+          "id": "18-c-2",
+          "title": "global_indicators.18-c-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/18-c-2",
+          "status": "complete"
+        },
+        {
+          "id": "18-c-3",
+          "title": "global_indicators.18-c-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/18-c-3",
+          "status": "complete"
+        },
+        {
+          "id": "18-c-4",
+          "title": "global_indicators.18-c-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/18-c-4",
+          "status": "complete"
+        },
+        {
+          "id": "18-c-5",
+          "title": "global_indicators.18-c-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/18-c-5",
+          "status": "complete"
+        },
+        {
+          "id": "18-c-6",
+          "title": "global_indicators.18-c-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/18-c-6",
+          "status": "complete"
+        },
+        {
+          "id": "18-c-7",
+          "title": "global_indicators.18-c-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/18-c-7",
+          "status": "complete"
+        },
+        {
+          "id": "18-c-8",
+          "title": "global_indicators.18-c-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/18-c-8",
+          "status": "complete"
+        },
+        {
+          "id": "18-c-9",
+          "title": "global_indicators.18-c-9-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/18-c-9",
+          "status": "complete"
+        },
+        {
+          "id": "18-c-10",
+          "title": "global_indicators.18-c-10-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/18-c-10",
+          "status": "complete"
+        },
+        {
+          "id": "18-c-11",
+          "title": "global_indicators.18-c-11-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/18-c-11",
+          "status": "complete"
+        },
+        {
+          "id": "18-c-12",
+          "title": "global_indicators.18-c-12-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/18-c-12",
+          "status": "complete"
+        },
+        {
+          "id": "18-c-13",
+          "title": "global_indicators.18-c-13-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/18-c-13",
           "status": "complete"
         }]
     }

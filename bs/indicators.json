@@ -2086,4 +2086,20 @@
           "status": "notstarted"
         }]
     }
+  },
+  {
+    "goal": {
+      "id": "18",
+      "title": "global_goals.18-title",
+      "indicators": [
+        
+        {
+          "id": "18-1-1",
+          "title": "global_indicators.18-1-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/bs/18-1-1",
+          "status": "complete"
+        }]
+    }
   }]

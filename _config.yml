@@ -115,7 +115,7 @@ menu:
     translation_key: menu.faq
   - path: /publications
     translation_key: menu.publications
-  - path: /1-1-1
+  - path: /18-1-1
     translation_key: custom.covid
 
 footer_menu:

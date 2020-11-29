@@ -5,7 +5,4 @@ language: sr
 permalink: /sr/publications/
 ---
 
-<h4>Све публикације</h4>
-
-<a href="http://www.bhas.ba/data/Dokumenti/pdf/sistembs.pdf" target="_blank">Систем СР</a><br>
-<a href="http://www.bhas.ba/data/Dokumenti/pdf/sistembs.pdf" target="_blank">Систем СР 2</a>
+<a href="http://bhas.gov.ba/data/Publikacije/Metodologije/SDG_00_2019_MD_0_BS.pdf" target="_blank">ВНР</a><br>

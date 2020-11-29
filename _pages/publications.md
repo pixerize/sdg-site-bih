@@ -5,7 +5,5 @@ language: en
 permalink: /publications/
 ---
 
-<h4>All publications</h4>
-
-<a href="http://www.bhas.ba/data/Dokumenti/pdf/sistemen.pdf" target="_blank">Sistem EN</a><br>
-<a href="http://www.bhas.ba/data/Dokumenti/pdf/sistemen.pdf" target="_blank">Sistem EN 2</a><br>
+<a href="http://bhas.gov.ba/data/Publikacije/Metodologije/SDG_00_2020_MD_0_EN.pdf" target="_blank">Road map</a><br>
+<a href="http://bhas.gov.ba/data/Publikacije/Metodologije/SDG_00_2019_MD_0_EN.pdf" target="_blank">VNR</a><br>

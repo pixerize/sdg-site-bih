@@ -3,4 +3,6 @@ $( document ).ready(function() {
   $("a[href*='/8-9-2']").parent().remove();
   $("a[href*='/13-3-2']").parent().remove();
   $("a[href*='/17-6-2']").parent().remove();
+  
+  $(".indicator.goal-18").prev("div").remove();
 });

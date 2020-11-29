@@ -2233,8 +2233,6 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
     -ms-transition: all 150ms ease-in-out;
     -o-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out; }
-  #main-content .goal-tiles .no-gutters a[href*='/18'] {
-    pointer-events: none; }
 
 .breadcrumb {
   margin-top: 15px; }

@@ -45,7 +45,7 @@ create_goals:
 create_pages:
   pages:
     - folder: /
-      layout: frontpage-alt
+      layout: frontpage
     - folder: /goals
       layout: goals
     - folder: /reporting-status

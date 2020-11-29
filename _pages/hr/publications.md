@@ -5,7 +5,6 @@ language: hr
 permalink: /hr/publications/
 ---
 
-<h4>Sve publikacije</h4>
-
-<a href="http://www.bhas.ba/data/Dokumenti/pdf/sistembs.pdf" target="_blank">Sistem HR</a><br>
-<a href="http://www.bhas.ba/data/Dokumenti/pdf/sistembs.pdf" target="_blank">Sistem HR 2</a>
+<a href="http://bhas.gov.ba/data/Publikacije/Bilteni/2019/SDG_00_2018_TB_0_HR.pdf" target="_blank">Tematski bilten</a><br>
+<a href="http://bhas.gov.ba/data/Publikacije/Metodologije/SDG_00_2020_MD_0_HR.pdf" target="_blank">Mapa puta</a><br>
+<a href="http://bhas.gov.ba/data/Publikacije/Metodologije/SDG_00_2019_MD_0_BS.pdf" target="_blank">VNR</a><br>

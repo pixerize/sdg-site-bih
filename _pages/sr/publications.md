@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publikacije
+title: Публикације
 language: sr
 permalink: /sr/publications/
 ---

@@ -30,6 +30,10 @@ $bp-tablet: 768px;
 				-o-transition: all 150ms ease-in-out;
 				transition: all 150ms ease-in-out;
 			}
+			
+			a[href*='/18'] {
+				pointer-events:none;
+			}
 		}
 	}
 }

@@ -153,9 +153,9 @@ input:focus,
 button:focus {
   color: #0b0c0c !important;
   outline: 3px solid transparent !important;
-  background-color: #ffdd00 !important;
+  background-color: #e0f4ff !important;
   outline-offset: 0 !important;
-  box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c !important;
+  box-shadow: 0 -2px #e0f4ff, 0 4px #0b0c0c !important;
   text-decoration: none !important; }
 
 body.contrast-high [contentEditable="true"]:focus,
@@ -170,14 +170,14 @@ body.contrast-high button:focus {
 
 input[type="radio"]:focus, body.contrast-high input[type="radio"]:focus,
 input[type="checkbox"]:focus, body.contrast-high input[type="checkbox"]:focus {
-  box-shadow: 0px 0px 0px 4px #ffdd00 !important; }
+  box-shadow: 0px 0px 0px 4px #e0f4ff !important; }
 
 .tabPanel:focus,
 input[type="text"]:focus,
 body.contrast-high input[type="text"]:focus {
   background-color: white !important;
   box-shadow: none !important;
-  outline: 3px solid #ffdd00 !important; }
+  outline: 3px solid #e0f4ff !important; }
 
 a,
 a:hover {
@@ -542,7 +542,7 @@ body.contrast-high #zip-download-info {
 #main-content .goal-tiles .goal-tile {
   padding-bottom: 10px; }
   #main-content .goal-tiles .goal-tile a:focus {
-    outline: 6px #ffdd00 solid !important; }
+    outline: 6px #e0f4ff solid !important; }
 #main-content .goal-tiles .no-gutters img {
   width: calc(100% - 10px);
   border: 0;
@@ -607,7 +607,7 @@ body.contrast-high #zip-download-info {
 .goal-banner h1, .goal-banner p {
   color: #0b0c0c; }
 .goal-banner .goal-icon a:focus {
-  outline: 6px #ffdd00 solid !important; }
+  outline: 6px #e0f4ff solid !important; }
 
 .language-ar {
   direction: rtl; }
@@ -1009,12 +1009,12 @@ body.contrast-high a.nav-link:focus {
 
 .contrast-switcher .contrast-high a:focus {
   background-color: #0b0c0c !important;
-  color: #ffdd00 !important;
-  box-shadow: 0 -2px #0b0c0c, 0 4px #ffdd00 !important; }
+  color: #e0f4ff !important;
+  box-shadow: 0 -2px #0b0c0c, 0 4px #e0f4ff !important; }
 
 body.contrast-high .contrast-switcher .contrast-high a:focus {
   box-shadow: none !important;
-  outline: 2px solid #ffdd00 !important; }
+  outline: 2px solid #e0f4ff !important; }
 
 body.contrast-high {
   background-color: black; }
@@ -1185,7 +1185,7 @@ header .container {
   height: auto; }
   .navbar-brand:focus {
     background-color: transparent !important;
-    outline: 7px solid #ffdd00 !important; }
+    outline: 7px solid #e0f4ff !important; }
   @media screen and (min-width: 769px) {
     .navbar-brand {
       padding: 5px 15px 15px 0; } }
@@ -1194,7 +1194,7 @@ header .container {
 
 body.contrast-high .navbar-brand:focus {
   background-color: transparent !important;
-  outline: 7px solid #ffdd00 !important; }
+  outline: 7px solid #e0f4ff !important; }
 
 .navbar {
   margin-bottom: 32px; }
@@ -1667,7 +1667,7 @@ footer {
   -o-user-select: none; }
   #main-content canvas:focus {
     background-color: transparent !important;
-    outline: 6px #ffdd00 solid !important; }
+    outline: 6px #e0f4ff solid !important; }
 #main-content.goal-indicators .indicator-cards a {
   padding: 1rem;
   display: inline-block;
@@ -1994,7 +1994,7 @@ body.contrast-high #main-content.goal-indicators.goal-by-target .indicator-cards
   float: left;
   min-height: 1px; }
   #main-content .frame > a:focus {
-    outline: 6px #ffdd00 solid !important; }
+    outline: 6px #e0f4ff solid !important; }
 #main-content .details {
   width: calc(100% - 125px);
   float: left; }
@@ -2062,9 +2062,9 @@ body.contrast-high .reporting-status-description {
       #search-results .search-result a:focus .title {
         color: #0b0c0c !important;
         outline: 3px solid transparent !important;
-        background-color: #ffdd00 !important;
+        background-color: #e0f4ff !important;
         outline-offset: 0 !important;
-        box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c !important;
+        box-shadow: 0 -2px #e0f4ff, 0 4px #0b0c0c !important;
         text-decoration: none !important; }
         #search-results .search-result a:focus .title span.match {
           background-color: transparent; }

@@ -934,22 +934,6 @@
           "status": "notstarted"
         },
         {
-          "id": "8-a-1",
-          "title": "Pomoć za trgovinske obaveze i isplate",
-          "description": "",
-          "keywords": "",
-          "href": "/bs/8-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-b-1",
-          "title": "Postojanje razvijene i operacionalizovane nacionalne strategije za zapošljavanje mladih, kao posebna strategija ili kao dio nacionalne strategije zapošljavanja",
-          "description": "",
-          "keywords": "",
-          "href": "/bs/8-b-1",
-          "status": "notstarted"
-        },
-        {
           "id": "8-10-1",
           "title": "(a) Broj filijala komercijalnih banaka na 100.000 odraslih i (b) broj automatizovanih bankomata na 100.000 odraslih",
           "description": "",
@@ -963,6 +947,22 @@
           "description": "",
           "keywords": "",
           "href": "/bs/8-10-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-a-1",
+          "title": "Pomoć za trgovinske obaveze i isplate",
+          "description": "",
+          "keywords": "",
+          "href": "/bs/8-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-b-1",
+          "title": "Postojanje razvijene i operacionalizovane nacionalne strategije za zapošljavanje mladih, kao posebna strategija ili kao dio nacionalne strategije zapošljavanja",
+          "description": "",
+          "keywords": "",
+          "href": "/bs/8-b-1",
           "status": "notstarted"
         }]
     }
@@ -1854,22 +1854,6 @@
           "status": "notstarted"
         },
         {
-          "id": "16-a-1",
-          "title": "Postojanje nezavisnih nacionalnih institucija za ljudska prava u skladu sa Pariškim principima",
-          "description": "",
-          "keywords": "",
-          "href": "/bs/16-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-b-1",
-          "title": "Procenat izvještavanja o stanovništvu koje je lično bilo diskriminirano ili uznemiravano u prethodnih 12 mjeseci na osnovu diskriminacije zabranjene međunarodnim zakonom o ljudskim pravima",
-          "description": "",
-          "keywords": "",
-          "href": "/bs/16-b-1",
-          "status": "notstarted"
-        },
-        {
           "id": "16-10-1",
           "title": "Broj potvrđenih slučajeva ubistava, kidnapovanja, prisilnog nestanka, proizvoljnog zatvaranja i mučenja novinara, pripadnika medijskog osoblja, sindikata i zagovornika ljudskih prava u prethodnih 12 mjeseci",
           "description": "",
@@ -1883,6 +1867,22 @@
           "description": "",
           "keywords": "",
           "href": "/bs/16-10-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-a-1",
+          "title": "Postojanje nezavisnih nacionalnih institucija za ljudska prava u skladu sa Pariškim principima",
+          "description": "",
+          "keywords": "",
+          "href": "/bs/16-a-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-b-1",
+          "title": "Procenat izvještavanja o stanovništvu koje je lično bilo diskriminirano ili uznemiravano u prethodnih 12 mjeseci na osnovu diskriminacije zabranjene međunarodnim zakonom o ljudskim pravima",
+          "description": "",
+          "keywords": "",
+          "href": "/bs/16-b-1",
           "status": "notstarted"
         }]
     }

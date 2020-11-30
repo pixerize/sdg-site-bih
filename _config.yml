@@ -164,5 +164,8 @@ exclude:
 
 custom_js:
   - /assets/js/custom.js
-  
-goal_image_extension: svg
+
+goal_image_extension: png
+
+accessible_tabs: true
+accessible_charts: true

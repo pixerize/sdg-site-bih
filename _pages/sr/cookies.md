@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Cookies and privacy
-language: bs
-permalink: /bs/about/cookies-and-privacy/
+language: sr
+permalink: /sr/about/cookies-and-privacy/
 ---
 The following is a description of what data is collected when you use this website and what it is used for.
 

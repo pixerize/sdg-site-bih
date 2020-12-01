@@ -1388,7 +1388,7 @@ function fieldItemStatesForView(fieldItemStates, fieldsByUnit, selectedUnit, dat
     states = fieldItemStatesForUnit(fieldItemStates, fieldsByUnit, selectedUnit);
   }
 
-  if (selectedFields.length > 0) {
+  if (selectedFields && selectedFields.length > 0) {
     states.forEach(function(fieldItem) {
       var selectedField = selectedFields.find(function(selectedItem) {
         return selectedItem.field === fieldItem.field;
@@ -1414,16 +1414,18 @@ function fieldItemStatesForView(fieldItemStates, fieldsByUnit, selectedUnit, dat
 function sortFieldsForView(fieldItemStates, edges) {
   var grandparents = [],
       parents = [];
-  edges.forEach(function(edge) {
-    if (!parents.includes(edge.From)) {
-      parents.push(edge.From);
-    }
-  });
-  edges.forEach(function(edge) {
-    if (parents.includes(edge.To)) {
-      grandparents.push(edge.From);
-    }
-  });
+  if (edges) {
+    edges.forEach(function(edge) {
+      if (!parents.includes(edge.From)) {
+        parents.push(edge.From);
+      }
+    });
+    edges.forEach(function(edge) {
+      if (parents.includes(edge.To)) {
+        grandparents.push(edge.From);
+      }
+    });
+  }
   fieldItemStates.sort(function(a, b) {
     if (grandparents.includes(a.field) && !grandparents.includes(b.field)) {
       return -1;
@@ -2009,6 +2011,12 @@ function sortData(rows, selectedUnit) {
 }
 
 
+  function deprecated(name) {
+    return function() {
+      console.log('The ' + name + ' function has been removed. Please update any overridden files.');
+    }
+  }
+
   return {
     UNIT_COLUMN: UNIT_COLUMN,
     SERIES_COLUMN: SERIES_COLUMN,
@@ -2048,6 +2056,8 @@ function sortData(rows, selectedUnit) {
     getCombinationData: getCombinationData,
     getDatasets: getDatasets,
     tableDataFromDatasets: tableDataFromDatasets,
+    // Backwards compatibility.
+    footerFields: deprecated('helpers.footerFields'),
   }
 })();
 
@@ -2443,9 +2453,11 @@ var indicatorView = function (model, options) {
     view_obj.initialiseUnits(args);
   });
 
-  this._model.onSeriesesComplete.attach(function(sender, args) {
-    view_obj.initialiseSerieses(args);
-  });
+  if (this._model.onSeriesesComplete) {
+    this._model.onSeriesesComplete.attach(function(sender, args) {
+      view_obj.initialiseSerieses(args);
+    });
+  }
 
   this._model.onFieldsCleared.attach(function(sender, args) {
     $(view_obj._rootElement).find(':checkbox').prop('checked', false);
@@ -2662,17 +2674,20 @@ var indicatorView = function (model, options) {
   };
 
   this.initialiseSerieses = function(args) {
-    var template = _.template($('#series_template').html()),
-        serieses = args.serieses || [],
-        selectedSeries = args.selectedSeries || null;
+    var templateElement = $('#series_template');
+    if (templateElement.length > 0) {
+      var template = _.template(templateElement.html()),
+          serieses = args.serieses || [],
+          selectedSeries = args.selectedSeries || null;
 
-    $('#serieses').html(template({
-      serieses: serieses,
-      selectedSeries: selectedSeries
-    }));
+      $('#serieses').html(template({
+        serieses: serieses,
+        selectedSeries: selectedSeries
+      }));
 
-    if(!serieses.length) {
-      $(this._rootElement).addClass('no-serieses');
+      if(!serieses.length) {
+        $(this._rootElement).addClass('no-serieses');
+      }
     }
   };
 

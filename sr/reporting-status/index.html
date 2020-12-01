@@ -121,7 +121,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20201201011122">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20201201222614">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -167,15 +167,15 @@ var translations = {
       <span class="language-abbreviation">sr</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/reporting-status/">
-              Енглески
+              English
             </a>
           </li><li>
             <a href="/bs/reporting-status/">
-              Босански
+              Bosanski
             </a>
           </li><li>
             <a href="/hr/reporting-status/">
-              Хрватски
+              Hrvatski
             </a>
           </li></ul>
   </div>
@@ -198,8 +198,6 @@ var translations = {
     </li><li class="nav-link ">
     <a href="/sr/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/sr/faq">FAQ</a>
-    </li><li class="nav-link ">
     <a href="/sr/publications">Публикације</a>
     </li><li class="nav-link ">
     <a href="/sr/18">COVID-19</a>
@@ -218,15 +216,15 @@ var translations = {
       <span class="language-abbreviation">sr</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/reporting-status/">
-              Енглески
+              English
             </a>
           </li><li>
             <a href="/bs/reporting-status/">
-              Босански
+              Bosanski
             </a>
           </li><li>
             <a href="/hr/reporting-status/">
-              Хрватски
+              Hrvatski
             </a>
           </li></ul>
   </div>
@@ -268,8 +266,6 @@ var translations = {
     </li><li class="nav-link ">
     <a href="/sr/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/sr/faq">FAQ</a>
-    </li><li class="nav-link ">
     <a href="/sr/publications">Публикације</a>
     </li><li class="nav-link ">
     <a href="/sr/18">COVID-19</a>
@@ -288,15 +284,15 @@ var translations = {
       <span class="language-abbreviation">sr</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/reporting-status/">
-              Енглески
+              English
             </a>
           </li><li>
             <a href="/bs/reporting-status/">
-              Босански
+              Bosanski
             </a>
           </li><li>
             <a href="/hr/reporting-status/">
-              Хрватски
+              Hrvatski
             </a>
           </li></ul>
   </div>
@@ -315,7 +311,13 @@ var translations = {
 
 
 
-<div id="main-content" class="container reportingstatus">
+
+
+
+
+
+
+<div id="main-content" class="container reportingstatus" role="main">
 
   <h1>
   
@@ -324,22 +326,27 @@ var translations = {
 </h1>
 
 
-<div class="goal goal-overall">
-      <div class="details">
+
+
+  
+
+  
+  <div class="goal goal-overall">
+    <div class="details">
         <h2 class="status-goal">
             Укупни статус извјештавања <span class="total"><span>257</span> индикатори</span>
         </h2>
         <div class="summary">
-          <div class="statuses"><div>
-              <span class="status complete">17</span><strong>Извијештено онлине</strong><span class="value">7%</span>
+            <div class="statuses"><div>
+                <span class="status complete"><span class="status-inner">17</span></span><strong>Извијештено онлине</strong><span class="value">7%</span>
             </div><div>
-              <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
+                <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
             </div><div>
-              <span class="status notstarted">240</span><strong>Истраживање извора података</strong><span class="value">93%</span>
+                <span class="status notstarted"><span class="status-inner">240</span></span><strong>Истраживање извора података</strong><span class="value">93%</span>
             </div><div>
-              <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
+                <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
             </div><br style="clear:both;">
-          </div>
+            </div>
         </div>
         <div class="goal-stats">
             
@@ -354,736 +361,719 @@ var translations = {
             
             
             <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-
-      </div>
+    </div>
     <br style="clear:both;">
-  </div>
-
-  
-  <h2>Статус према циљу</h2>
-  
-
-  <div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/1">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/1.png" alt="Свијет без сиромаштва - Циљ 1" width="100" height="100" id="goal-1"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+</div>
+  <h2>Статус према циљу</h2><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/1">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/1.png" alt="Свијет без сиромаштва - Циљ 1" width="100" height="100" class="goal-icon-1"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/1">Свијет без сиромаштва</a>
             <span class="total">13 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">1</span><strong>Извијештено онлине</strong><span class="value">8%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">12</span><strong>Истраживање извора података</strong><span class="value">92%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">1</span></span><strong>Извијештено онлине</strong><span class="value">8%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Истраживање извора података</strong><span class="value">92%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:7.692307692307693%" title="Извијештено онлине: 8%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:92.3076923076923%" title="Истраживање извора података: 92%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/2">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/2.png" alt="Свијет без глади - Циљ 2" width="100" height="100" id="goal-2"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:7.692307692307693%" title="Извијештено онлине: 8%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:92.3076923076923%" title="Истраживање извора података: 92%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/2">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/2.png" alt="Свијет без глади - Циљ 2" width="100" height="100" class="goal-icon-2"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/2">Свијет без глади</a>
             <span class="total">13 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">0</span><strong>Извијештено онлине</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">13</span><strong>Истраживање извора података</strong><span class="value">100%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Извијештено онлине</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Истраживање извора података</strong><span class="value">100%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/3">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/3.png" alt="Здравље и благостање - Циљ 3" width="100" height="100" id="goal-3"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/3">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/3.png" alt="Здравље и благостање - Циљ 3" width="100" height="100" class="goal-icon-3"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/3">Здравље и благостање</a>
             <span class="total">28 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">1</span><strong>Извијештено онлине</strong><span class="value">4%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">27</span><strong>Истраживање извора података</strong><span class="value">96%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">1</span></span><strong>Извијештено онлине</strong><span class="value">4%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">27</span></span><strong>Истраживање извора података</strong><span class="value">96%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:3.571428571428571%" title="Извијештено онлине: 4%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:96.42857142857143%" title="Истраживање извора података: 96%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/4">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/4.png" alt="Квалитетно образовање - Циљ 4" width="100" height="100" id="goal-4"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:3.571428571428571%" title="Извијештено онлине: 4%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:96.42857142857143%" title="Истраживање извора података: 96%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/4">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/4.png" alt="Квалитетно образовање - Циљ 4" width="100" height="100" class="goal-icon-4"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/4">Квалитетно образовање</a>
             <span class="total">12 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">0</span><strong>Извијештено онлине</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">12</span><strong>Истраживање извора података</strong><span class="value">100%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Извијештено онлине</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Истраживање извора података</strong><span class="value">100%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/5">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/5.png" alt="Родна равноправност - Циљ 5" width="100" height="100" id="goal-5"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/5">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/5.png" alt="Родна равноправност - Циљ 5" width="100" height="100" class="goal-icon-5"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/5">Родна равноправност</a>
             <span class="total">14 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">0</span><strong>Извијештено онлине</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">14</span><strong>Истраживање извора података</strong><span class="value">100%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Извијештено онлине</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Истраживање извора података</strong><span class="value">100%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/6">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/6.png" alt="Чиста вода и санитарни услови - Циљ 6" width="100" height="100" id="goal-6"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/6">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/6.png" alt="Чиста вода и санитарни услови - Циљ 6" width="100" height="100" class="goal-icon-6"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/6">Чиста вода и санитарни услови</a>
             <span class="total">11 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">0</span><strong>Извијештено онлине</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">11</span><strong>Истраживање извора података</strong><span class="value">100%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Извијештено онлине</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>Истраживање извора података</strong><span class="value">100%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/7">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/7.png" alt="Приступачна енергија из чистих извора - Циљ 7" width="100" height="100" id="goal-7"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/7">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/7.png" alt="Приступачна енергија из чистих извора - Циљ 7" width="100" height="100" class="goal-icon-7"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/7">Приступачна енергија из чистих извора</a>
             <span class="total">6 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">0</span><strong>Извијештено онлине</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">6</span><strong>Истраживање извора података</strong><span class="value">100%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Извијештено онлине</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">6</span></span><strong>Истраживање извора података</strong><span class="value">100%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/8">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/8.png" alt="Достојанствен рад и економски раст - Циљ 8" width="100" height="100" id="goal-8"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/8">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/8.png" alt="Достојанствен рад и економски раст - Циљ 8" width="100" height="100" class="goal-icon-8"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/8">Достојанствен рад и економски раст</a>
             <span class="total">16 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">0</span><strong>Извијештено онлине</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">16</span><strong>Истраживање извора података</strong><span class="value">100%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Извијештено онлине</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">16</span></span><strong>Истраживање извора података</strong><span class="value">100%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/9">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/9.png" alt="Индустрија, иновације и инфраструктура - Циљ 9" width="100" height="100" id="goal-9"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/9">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/9.png" alt="Индустрија, иновације и инфраструктура - Циљ 9" width="100" height="100" class="goal-icon-9"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/9">Индустрија, иновације и инфраструктура</a>
             <span class="total">12 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">0</span><strong>Извијештено онлине</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">12</span><strong>Истраживање извора података</strong><span class="value">100%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Извијештено онлине</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Истраживање извора података</strong><span class="value">100%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/10">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/10.png" alt="Смањење неједнакости - Циљ 10" width="100" height="100" id="goal-10"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/10">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/10.png" alt="Смањење неједнакости - Циљ 10" width="100" height="100" class="goal-icon-10"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/10">Смањење неједнакости</a>
             <span class="total">13 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">0</span><strong>Извијештено онлине</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">13</span><strong>Истраживање извора података</strong><span class="value">100%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Извијештено онлине</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Истраживање извора података</strong><span class="value">100%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/11">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/11.png" alt="Одрживи градови и заједнице - Циљ 11" width="100" height="100" id="goal-11"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/11">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/11.png" alt="Одрживи градови и заједнице - Циљ 11" width="100" height="100" class="goal-icon-11"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/11">Одрживи градови и заједнице</a>
             <span class="total">15 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">0</span><strong>Извијештено онлине</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">15</span><strong>Истраживање извора података</strong><span class="value">100%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Извијештено онлине</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">15</span></span><strong>Истраживање извора података</strong><span class="value">100%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/12">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/12.png" alt="Одговорна потрошња и производња - Циљ 12" width="100" height="100" id="goal-12"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/12">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/12.png" alt="Одговорна потрошња и производња - Циљ 12" width="100" height="100" class="goal-icon-12"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/12">Одговорна потрошња и производња</a>
             <span class="total">13 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">0</span><strong>Извијештено онлине</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">13</span><strong>Истраживање извора података</strong><span class="value">100%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Извијештено онлине</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Истраживање извора података</strong><span class="value">100%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/13">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/13.png" alt="Очување климе - Циљ 13" width="100" height="100" id="goal-13"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/13">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/13.png" alt="Очување климе - Циљ 13" width="100" height="100" class="goal-icon-13"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/13">Очување климе</a>
             <span class="total">7 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">0</span><strong>Извијештено онлине</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">7</span><strong>Истраживање извора података</strong><span class="value">100%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Извијештено онлине</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">7</span></span><strong>Истраживање извора података</strong><span class="value">100%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/14">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/14.png" alt="Очување воденог свијета - Циљ 14" width="100" height="100" id="goal-14"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/14">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/14.png" alt="Очување воденог свијета - Циљ 14" width="100" height="100" class="goal-icon-14"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/14">Очување воденог свијета</a>
             <span class="total">10 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">0</span><strong>Извијештено онлине</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">10</span><strong>Истраживање извора података</strong><span class="value">100%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Извијештено онлине</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">10</span></span><strong>Истраживање извора података</strong><span class="value">100%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/15">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/15.png" alt="Очување живота на земљи - Циљ 15" width="100" height="100" id="goal-15"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/15">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/15.png" alt="Очување живота на земљи - Циљ 15" width="100" height="100" class="goal-icon-15"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/15">Очување живота на земљи</a>
             <span class="total">14 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">0</span><strong>Извијештено онлине</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">14</span><strong>Истраживање извора података</strong><span class="value">100%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Извијештено онлине</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Истраживање извора података</strong><span class="value">100%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/16">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/16.png" alt="Мир, правда и снажне институције - Циљ 16" width="100" height="100" id="goal-16"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/16">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/16.png" alt="Мир, правда и снажне институције - Циљ 16" width="100" height="100" class="goal-icon-16"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/16">Мир, правда и снажне институције</a>
             <span class="total">23 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">0</span><strong>Извијештено онлине</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">23</span><strong>Истраживање извора података</strong><span class="value">100%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Извијештено онлине</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">23</span></span><strong>Истраживање извора података</strong><span class="value">100%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/17">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/17.png" alt="Партнерством до циља - Циљ 17" width="100" height="100" id="goal-17"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:0.0%" title="Извијештено онлине: 0%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:100.0%" title="Истраживање извора података: 100%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/17">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/17.png" alt="Партнерством до циља - Циљ 17" width="100" height="100" class="goal-icon-17"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/17">Партнерством до циља</a>
             <span class="total">24 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">2</span><strong>Извијештено онлине</strong><span class="value">8%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">22</span><strong>Истраживање извора података</strong><span class="value">92%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">2</span></span><strong>Извијештено онлине</strong><span class="value">8%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">22</span></span><strong>Истраживање извора података</strong><span class="value">92%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:8.333333333333332%" title="Извијештено онлине: 8%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:91.66666666666666%" title="Истраживање извора података: 92%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
-          <a href="/sr/18">
-            <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/18.png" alt="Специфични подциљеви - Циљ 18" width="100" height="100" id="goal-18"/>
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:8.333333333333332%" title="Извијештено онлине: 8%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:91.66666666666666%" title="Истраживање извора података: 92%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
+    </div>
+    <br style="clear:both;">
+</div><div class="goal reporting-status-item">
+    <div class="frame goal-tiles">
+        <a href="/sr/18">
+        <img src="https://sdgbosnia.co.uk/assets/img/goals/sr/18.png" alt="Специфични подциљеви - Циљ 18" width="100" height="100" class="goal-icon-18"/>
+        </a>
+    </div>
+    <div class="details">
+        <h3 class="status-goal">
             <a href="/sr/18">Специфични подциљеви</a>
             <span class="total">13 индикатори</span>
-          </h3>
-          <div class="summary">
+        </h3>
+        <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete">13</span><strong>Извијештено онлине</strong><span class="value">100%</span>
-              </div><div>
-                <span class="status inprogress">0</span><strong>Статистика у току</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notstarted">0</span><strong>Истраживање извора података</strong><span class="value">0%</span>
-              </div><div>
-                <span class="status notapplicable">0</span><strong>Није примјењиво</strong><span class="value">0%</span>
-              </div><br style="clear:both;">
+                    <span class="status complete"><span class="status-inner">13</span></span><strong>Извијештено онлине</strong><span class="value">100%</span>
+                </div><div>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Статистика у току</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notstarted"><span class="status-inner">0</span></span><strong>Истраживање извора података</strong><span class="value">0%</span>
+                </div><div>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Није примјењиво</strong><span class="value">0%</span>
+                </div><br style="clear:both;">
             </div>
-          </div>
-          <div class="goal-stats">
-          
-          
-            <span class="complete" style="width:100.0%" title="Извијештено онлине: 100%"></span>
-          
-          
-            <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
-          
-          
-            <span class="notstarted" style="width:0.0%" title="Истраживање извора података: 0%"></span>
-          
-          
-            <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
-          <div class="divider">
-          </div>
         </div>
-      <br style="clear:both;">
+        <div class="goal-stats">
+                
+                
+                <span class="complete" style="width:100.0%" title="Извијештено онлине: 100%"></span>
+                
+                
+                <span class="inprogress" style="width:0.0%" title="Статистика у току: 0%"></span>
+                
+                
+                <span class="notstarted" style="width:0.0%" title="Истраживање извора података: 0%"></span>
+                
+                
+                <span class="notapplicable" style="width:0.0%" title="Није примјењиво: 0%"></span></div>
+        <div class="divider"></div>
     </div>
+    <br style="clear:both;">
+</div>
+  
+
+  
+
+  
+
+  
 
   <!---->
 
@@ -1138,12 +1128,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20201201011122'></script>
+<script src='/assets/js/sdg.js?v=20201201222614'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20201201011122"></script><script>
+    <script src="/assets/js/custom.js?v=20201201222614"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

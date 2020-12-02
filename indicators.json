@@ -2089,104 +2089,144 @@
   },
   {
     "goal": {
-      "id": "18",
-      "title": "Custom targets",
+      "id": "",
+      "title": "",
       "indicators": [
         
         {
-          "id": "18-c-1",
-          "title": "Gross domestic product – production approach",
-          "description": "",
-          "keywords": "",
-          "href": "/18-c-1",
-          "status": "complete"
-        },
-        {
-          "id": "18-c-3",
-          "title": "Exports and imports in BiH during 2019 and 2020, by months",
-          "description": "",
-          "keywords": "",
-          "href": "/18-c-3",
-          "status": "complete"
-        },
-        {
-          "id": "18-c-4",
-          "title": "Industrial turnover – year-on-year grow rates calculated on basis of working-day adjusted indices",
-          "description": "",
-          "keywords": "",
-          "href": "/18-c-4",
-          "status": "complete"
-        },
-        {
-          "id": "18-c-5",
-          "title": "Monthly Producer Price Index",
-          "description": "",
-          "keywords": "",
-          "href": "/18-c-5",
-          "status": "complete"
-        },
-        {
-          "id": "18-c-6",
-          "title": "Retail trade indices, 2015 =100",
-          "description": "",
-          "keywords": "",
-          "href": "/18-c-6",
-          "status": "complete"
-        },
-        {
-          "id": "18-c-7",
+          "id": "average-monthly-earnings",
           "title": "Average monthly earnings of persons in employment",
           "description": "",
           "keywords": "",
-          "href": "/18-c-7",
+          "href": "/covid-19-impact/average-monthly-earnings",
           "status": "complete"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
         {
-          "id": "18-c-8",
-          "title": "Labour force of BiH, according to administrative sources",
+          "id": "bih-exports-imports",
+          "title": "Exports and imports in BiH during 2019 and 2020, by months",
           "description": "",
           "keywords": "",
-          "href": "/18-c-8",
+          "href": "/covid-19-impact/bih-exports-imports",
           "status": "complete"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
         {
-          "id": "18-c-9",
-          "title": "Road transport, railway transport and air transport",
-          "description": "",
-          "keywords": "",
-          "href": "/18-c-9",
-          "status": "complete"
-        },
-        {
-          "id": "18-c-10",
+          "id": "cross-border-traffic",
           "title": "Cross-border traffic of passenger road motor vehicles and passengers",
           "description": "",
           "keywords": "",
-          "href": "/18-c-10",
+          "href": "/covid-19-impact/cross-border-traffic",
           "status": "complete"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
         {
-          "id": "18-c-11",
-          "title": "Tourist nights",
-          "description": "",
-          "keywords": "",
-          "href": "/18-c-11",
-          "status": "complete"
-        },
-        {
-          "id": "18-c-12",
+          "id": "electricity-supply",
           "title": "Electricity supply",
           "description": "",
           "keywords": "",
-          "href": "/18-c-12",
+          "href": "/covid-19-impact/electricity-supply",
           "status": "complete"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
         {
-          "id": "18-c-13",
-          "title": "Value of agricultural products sold on green markets by groups of products",
+          "id": "gross-domestic-product",
+          "title": "Gross domestic product – production approach",
           "description": "",
           "keywords": "",
-          "href": "/18-c-13",
+          "href": "/covid-19-impact/gross-domestic-product",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "industrial-turnover",
+          "title": "Industrial turnover – year-on-year grow rates calculated on basis of working-day adjusted indices",
+          "description": "",
+          "keywords": "",
+          "href": "/covid-19-impact/industrial-turnover",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "labour-force-of-bih",
+          "title": "Labour force of BiH, according to administrative sources",
+          "description": "",
+          "keywords": "",
+          "href": "/covid-19-impact/labour-force-of-bih",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "monthly-producer-price",
+          "title": "Monthly Producer Price Index",
+          "description": "",
+          "keywords": "",
+          "href": "/covid-19-impact/monthly-producer-price",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "retail-trade-indices",
+          "title": "Retail trade indices, 2015 =100",
+          "description": "",
+          "keywords": "",
+          "href": "/covid-19-impact/retail-trade-indices",
           "status": "complete"
         }]
     }
@@ -2203,6 +2243,54 @@
           "description": "",
           "keywords": "",
           "href": "/covid-19-impact/revenue-from-indirect-taxes",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "road-transport",
+          "title": "Road transport, railway transport and air transport",
+          "description": "",
+          "keywords": "",
+          "href": "/covid-19-impact/road-transport",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "tourist-nights",
+          "title": "Tourist nights",
+          "description": "",
+          "keywords": "",
+          "href": "/covid-19-impact/tourist-nights",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "value-of-agricultural-products",
+          "title": "Value of agricultural products sold on green markets by groups of products",
+          "description": "",
+          "keywords": "",
+          "href": "/covid-19-impact/value-of-agricultural-products",
           "status": "complete"
         }]
     }

@@ -6,5 +6,3 @@ language: en
 standalone_indicators:
     - revenue-from-indirect-taxes
 ---
-Content for my standalone indicator list
-%page.indicator

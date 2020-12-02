@@ -5,3 +5,4 @@ gem "html-proofer"
 gem "jekyll-remote-theme"
 gem "deep_merge"
 gem "jekyll-open-sdg-plugins", "1.2.0.pre.beta4"
+gem 'jekyll-open-sdg-plugins', git: 'https://github.com/brockfanning/jekyll-open-sdg-plugins.git', branch: 'standalone-indicators'

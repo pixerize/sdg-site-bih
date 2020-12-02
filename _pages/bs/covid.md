@@ -6,7 +6,7 @@ language: bs
 standalone_indicators:
     - gross-domestic-product
     - revenue-from-indirect-taxes
-    - export-imports
+    - bih-exports-imports
     - industrial-turnover
     - monthly-producer-price
     - retail-trade-indices

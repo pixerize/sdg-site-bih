@@ -2102,14 +2102,6 @@
           "status": "complete"
         },
         {
-          "id": "18-c-2",
-          "title": "Revenues from indirect taxes",
-          "description": "",
-          "keywords": "",
-          "href": "/revenue-from-indirect-taxes",
-          "status": "complete"
-        },
-        {
           "id": "18-c-3",
           "title": "Exports and imports in BiH during 2019 and 2020, by months",
           "description": "",
@@ -2195,6 +2187,22 @@
           "description": "",
           "keywords": "",
           "href": "/18-c-13",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "revenue-from-indirect-taxes",
+          "title": "Revenues from indirect taxes",
+          "description": "",
+          "keywords": "",
+          "href": "/revenue-from-indirect-taxes",
           "status": "complete"
         }]
     }

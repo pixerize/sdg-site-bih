@@ -2102,14 +2102,6 @@
           "status": "complete"
         },
         {
-          "id": "18-c-2",
-          "title": "Prihodi od indirektnih poreza",
-          "description": "",
-          "keywords": "",
-          "href": "/bs/revenue-from-indirect-taxes",
-          "status": "complete"
-        },
-        {
           "id": "18-c-3",
           "title": "Izvoz i uvoz u BiH tokom 2019. i 2020, po mjesecima",
           "description": "",
@@ -2195,6 +2187,22 @@
           "description": "",
           "keywords": "",
           "href": "/bs/18-c-13",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "revenue-from-indirect-taxes",
+          "title": "Prihodi od indirektnih poreza",
+          "description": "",
+          "keywords": "",
+          "href": "/bs/revenue-from-indirect-taxes",
           "status": "complete"
         }]
     }

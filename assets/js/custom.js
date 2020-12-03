@@ -40,7 +40,7 @@ $( document ).ready(function() {
   function convertXAxisLabel(label) {
     let strVal = label.toString();
     let newLabel = label;
-    if (strVal.length > 1 && label.charAt(1) == ")") {
+    if (strVal.length > 3 && label.charAt(1) == ")") {
       newLabel = label.substing(2);
     }
     

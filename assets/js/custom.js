@@ -41,7 +41,7 @@ $( document ).ready(function() {
     let strVal = label.toString();
     let newLabel = strVal;
     if (strVal.length > 3 && strVal.charAt(1) == ")") {
-      newLabel = strVal.substing(2);
+      newLabel = strVal.substring(2);
     }
     
     return newLabel;

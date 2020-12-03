@@ -37,3 +37,23 @@ $bp-tablet: 768px;
 .breadcrumb {
     margin-top: 15px;
 }
+
+
+.standalone-indicator-list {
+    padding: 0;
+
+    li:nth-child(odd) {
+        background: #ececec;
+    }
+
+    li {
+        list-style: none;
+        padding: 5px 5px 5px 10px;
+
+        a {
+            color: #000;
+            text-decoration: none;
+            transition: .3s;
+        }
+    }
+}

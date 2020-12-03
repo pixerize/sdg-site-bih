@@ -9,3 +9,40 @@ $( document ).ready(function() {
   $('.zip-download-container').addClass('container');
 });
 
+$( document ).ready(function() {
+  opensdg.chartConfigAlter(function(config, info) {
+    var overrides = {
+      options: {
+        tooltips: {
+          callbacks: {
+            title: function(tooltipItem, data) {
+              var label = (Array.isArray(tooltipItem)) ? tooltipItem[0].label : tooltipItem.label;
+              return convertXAxisLabel(label);
+            }
+          }
+        },
+        scales: {
+          xAxes: [{
+            ticks: {
+              callback: function(value, index, values) {
+                return convertXAxisLabel(value);
+              }
+            },
+          }]
+        },
+      }
+    }
+
+    // Add these overrides onto the normal config.
+    $.extend(true, config, overrides);
+  });
+
+  function convertXAxisLabel(label) {
+    if (false) {
+      return 'insert some conversion here';
+    }
+    else {
+      return label;
+    }
+  }
+});

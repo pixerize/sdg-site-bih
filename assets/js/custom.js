@@ -39,9 +39,9 @@ $( document ).ready(function() {
 
   function convertXAxisLabel(label) {
     let strVal = label.toString();
-    let newLabel = label;
-    if (strVal.length > 3 && label.charAt(1) == ")") {
-      newLabel = label.substing(2);
+    let newLabel = strVal;
+    if (strVal.length > 3 && strVal.charAt(1) == ")") {
+      newLabel = strVal.substing(2);
     }
     
     return newLabel;

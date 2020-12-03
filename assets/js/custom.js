@@ -38,12 +38,12 @@ $( document ).ready(function() {
   });
 
   function convertXAxisLabel(label) {
-    console.log(label);
-    if (false) {
-      return 'insert some conversion here';
+    let strVal = label.toString();
+    let newLabel = label;
+    if (strVal.length > 1 && label.charAt(1) == ")") {
+      newLabel = label.substing(2);
     }
-    else {
-      return label;
-    }
+    
+    return newLabel;
   }
 });

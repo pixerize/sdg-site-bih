@@ -38,6 +38,7 @@ $( document ).ready(function() {
   });
 
   function convertXAxisLabel(label) {
+    console.log(label);
     if (false) {
       return 'insert some conversion here';
     }

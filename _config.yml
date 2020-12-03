@@ -29,7 +29,7 @@ languages:
 # Recommended: set this to a particular "release" of Open SDG. For example:
 #remote_theme: open-sdg/open-sdg@1.1.0
 #remote_theme: open-sdg/open-sdg@master
-remote_theme: brockfanning/open-sdg@standalone-indicators
+remote_theme: brockfanning/open-sdg@bosnia-feature-set
 
 # Replace this title as needed.
 title: custom.indicator_title

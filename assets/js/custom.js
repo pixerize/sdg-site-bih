@@ -37,13 +37,24 @@ $( document ).ready(function() {
     $.extend(true, config, overrides);
   });
 
+  opensdg.tableConfigAlter(function(config, info) {
+    config.columnDefs = [
+      {
+        targets: 0,
+        render: function(data, type, row) {
+          return (type === 'display') ? convertXAxisLabel(data) : data;
+        }
+      }
+    ]
+  });
+
   function convertXAxisLabel(label) {
     let strVal = label.toString();
     let newLabel = strVal;
     if (strVal.length > 3 && strVal.charAt(1) == ")") {
       newLabel = strVal.substring(2);
     }
-    
+
     return newLabel;
   }
 });

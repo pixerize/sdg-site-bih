@@ -1,5 +1,5 @@
 ---
-title: COVID-19 Impact
+title: COVID-19 Social Economic Impact
 layout: standalone-indicators
 permalink: /covid-19-impact/
 language: en

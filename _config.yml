@@ -41,8 +41,10 @@ environment: staging
 # and some other required pages.
 create_indicators:
   layout: indicator
+  previous_next_links: true
 create_goals:
   layout: goal-by-target
+  previous_next_links: true
 create_pages:
   pages:
     - folder: /

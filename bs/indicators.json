@@ -108,6 +108,14 @@
           "keywords": "",
           "href": "/bs/1-b-1",
           "status": "notstarted"
+        },
+        {
+          "id": "1-c-7",
+          "title": "Procenat stanovništva koji žive ispod međunarodne linije siromaštva po polu, starosti, statusu zaposlenja i geografskoj lokaciji (urbano/ruralno)",
+          "description": "",
+          "keywords": "",
+          "href": "/bs/1-c-7",
+          "status": "complete"
         }]
     }
   },

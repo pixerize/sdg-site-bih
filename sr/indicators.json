@@ -2102,6 +2102,22 @@
       "indicators": [
         
         {
+          "id": "gross-domestic-product",
+          "title": "Бруто домаћи производ, производни приступ",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/covid-19-impact/gross-domestic-product",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
           "id": "average-monthly-earnings",
           "title": "Просјечне мјесечне плаће запослених",
           "description": "",
@@ -2155,22 +2171,6 @@
           "description": "",
           "keywords": "",
           "href": "/sr/covid-19-impact/electricity-supply",
-          "status": "complete"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "",
-      "title": "",
-      "indicators": [
-        
-        {
-          "id": "gross-domestic-product",
-          "title": "Бруто домаћи производ, производни приступ",
-          "description": "",
-          "keywords": "",
-          "href": "/sr/covid-19-impact/gross-domestic-product",
           "status": "complete"
         }]
     }

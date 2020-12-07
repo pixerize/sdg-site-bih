@@ -2118,11 +2118,11 @@
       "indicators": [
         
         {
-          "id": "average-monthly-earnings",
-          "title": "Просјечне мјесечне плаће запослених",
+          "id": "revenue-from-indirect-taxes",
+          "title": "Приходи од индиректних пореза",
           "description": "",
           "keywords": "",
-          "href": "/sr/covid-19-impact/average-monthly-earnings",
+          "href": "/sr/covid-19-impact/revenue-from-indirect-taxes",
           "status": "complete"
         }]
     }
@@ -2150,59 +2150,11 @@
       "indicators": [
         
         {
-          "id": "cross-border-traffic",
-          "title": "Гранични промет путничких моторних возила и путника",
-          "description": "",
-          "keywords": "",
-          "href": "/sr/covid-19-impact/cross-border-traffic",
-          "status": "complete"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "",
-      "title": "",
-      "indicators": [
-        
-        {
-          "id": "electricity-supply",
-          "title": "Снабдијевање електричном енергијом",
-          "description": "",
-          "keywords": "",
-          "href": "/sr/covid-19-impact/electricity-supply",
-          "status": "complete"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "",
-      "title": "",
-      "indicators": [
-        
-        {
           "id": "industrial-turnover",
           "title": "Промет индустрије – годишње стопе промјена израчунате из календарски прилагођених индекса",
           "description": "",
           "keywords": "",
           "href": "/sr/covid-19-impact/industrial-turnover",
-          "status": "complete"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "",
-      "title": "",
-      "indicators": [
-        
-        {
-          "id": "labour-force-of-bih",
-          "title": "Радна снага у БиХ према административним изворима",
-          "description": "",
-          "keywords": "",
-          "href": "/sr/covid-19-impact/labour-force-of-bih",
           "status": "complete"
         }]
     }
@@ -2246,11 +2198,27 @@
       "indicators": [
         
         {
-          "id": "revenue-from-indirect-taxes",
-          "title": "Приходи од индиректних пореза",
+          "id": "average-monthly-earnings",
+          "title": "Просјечне мјесечне плаће запослених",
           "description": "",
           "keywords": "",
-          "href": "/sr/covid-19-impact/revenue-from-indirect-taxes",
+          "href": "/sr/covid-19-impact/average-monthly-earnings",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "labour-force-of-bih",
+          "title": "Радна снага у БиХ према административним изворима",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/covid-19-impact/labour-force-of-bih",
           "status": "complete"
         }]
     }
@@ -2278,11 +2246,43 @@
       "indicators": [
         
         {
+          "id": "cross-border-traffic",
+          "title": "Гранични промет путничких моторних возила и путника",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/covid-19-impact/cross-border-traffic",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
           "id": "tourist-nights",
           "title": "Ноћења туриста",
           "description": "",
           "keywords": "",
           "href": "/sr/covid-19-impact/tourist-nights",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "",
+      "title": "",
+      "indicators": [
+        
+        {
+          "id": "electricity-supply",
+          "title": "Снабдијевање електричном енергијом",
+          "description": "",
+          "keywords": "",
+          "href": "/sr/covid-19-impact/electricity-supply",
           "status": "complete"
         }]
     }

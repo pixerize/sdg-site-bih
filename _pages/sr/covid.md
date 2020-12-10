@@ -1,5 +1,5 @@
 ---
-title: COVID-19 Утицај
+title: COVID-19 Социјално-економски утицај
 layout: standalone-indicators
 permalink: /sr/covid-19-impact/
 language: sr

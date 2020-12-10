@@ -5,8 +5,10 @@ permalink: /bs/about/
 layout: page
 ---
 
-This website is for disseminating SDG indicator data. We are at an Alpha stage in development, so the site is still 'work in progress'.
+Ova web stranica služi za diseminaciju podataka o SDG indikatorima. U Alfa smo fazi razvoja, tako da je web stranica još uvijek u fazi izrade. 
 
-Other countries wishing to reuse this site's underlying platform are welcome to do so for free. Our [Guidance page]({{ site.baseurl }}/guidance/) highlights key information on how to do this, linking to detailed technical instructions available in the platform's [documentation](https://open-sdg.readthedocs.io). The [Center for Open Data Enterprise (CODE)](http://www.opendataenterprise.org/) can also provide guidance and support through their [SDG National Reporting Initiative](https://www.sdgreporting.org/).
+Druge zemlje koje žele ponovo iskoristiti osnovnu platformu ove web stranice su dobrodošle da to učine besplatno. Naša stranica Smjernica ističe ključne informacije o tome kako to učiniti, povezujući se s detaljnim tehničkim uputama dostupnim u dokumentaciji platforme. 
 
-If you have any feedback on this website or SDG data then please contact us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>. The answers to some frequently asked questions are also available in our [FAQ]({{ site.baseurl }}/faq/).
+Centar za otvorene podatke (CODE) također može pružiti smjernice i podršku putem njihove SDG nacionalne inicijative za izvještavanje. 
+
+Ako imate bilo kakve povratne informacije o ovoj web lokaciji ili SDG podatke, kontaktirajte nas na test@example.com. Odgovori na neka često postavljana pitanja dostupni su i u našim FAQ.

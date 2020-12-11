@@ -1,4 +1,5 @@
 $bp-tablet: 768px;
+$light-color: #009DDA;
 
 .navbar-brand {
     display: block;
@@ -9,6 +10,46 @@ $bp-tablet: 768px;
 @media (min-width: $bp-tablet + 1px) {
 	header .container {
 	    border-bottom: 2px solid;
+	}
+}
+
+#menu {
+
+	a:link, a:visited, a:active {
+		color: #333;
+		text-decoration:none;
+	}
+	ul li {
+		position: relative;
+		display: inline-block;
+		overflow:hidden;
+	}
+	ul li:hover, ul li:focus {
+			outline: none;
+	}
+	ul li a {
+		position: relative;
+		display: inline-block;
+		color: #333;
+		font-size:1.5em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 700;
+		transition: transform 0.5s ease;
+		-webkit-transition: transform 0.5s ease;
+	}
+	ul li a:before{
+		position: absolute;
+		top: 100%;
+		color: $light-color;
+		-webkit-transform: translate3d(0,0,0);
+		-moz-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+	ul li:hover a, ul li:focus a {
+		-webkit-transform: translateY(-100%);
+		-moz-transform: translateY(-100%);
+		transform: translateY(-100%);
 	}
 }
 

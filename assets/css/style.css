@@ -2380,6 +2380,12 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 @media (min-width: 769px) {
   header .container {
     border-bottom: 2px solid; } }
+#main-content h1 {
+  font-size: 36px;
+  margin-bottom: 35px;
+  border-bottom: 2px solid #009dda;
+  padding-bottom: 15px;
+  max-width: max-content; }
 #main-content .goal-tiles .no-gutters {
   margin-bottom: 10px; }
   #main-content .goal-tiles .no-gutters img:not(#goal-18) {

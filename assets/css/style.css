@@ -2380,36 +2380,8 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 @media (min-width: 769px) {
   header .container {
     border-bottom: 2px solid; } }
-#main-nav a:link, #main-nav a:visited, #main-nav a:active {
-  color: #333;
-  text-decoration: none; }
-#main-nav ul li {
-  position: relative;
-  display: inline-block;
-  overflow: hidden; }
-#main-nav ul li:hover, #main-nav ul li:focus {
-  outline: none; }
-#main-nav ul li a {
-  position: relative;
-  display: inline-block;
-  color: #333;
-  font-size: 1.5em;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 700;
-  transition: transform 0.5s ease;
-  -webkit-transition: transform 0.5s ease; }
-#main-nav ul li a:before {
-  position: absolute;
-  top: 100%;
-  color: #009DDA;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0); }
-#main-nav ul li:hover a, #main-nav ul li:focus a {
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
-  transform: translateY(-100%); }
+.navbar ul.navbar-nav > li > a {
+  font-weight: 600; }
 
 #main-content h1 {
   font-size: 36px;

@@ -2380,6 +2380,37 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 @media (min-width: 769px) {
   header .container {
     border-bottom: 2px solid; } }
+#menu a:link, #menu a:visited, #menu a:active {
+  color: #333;
+  text-decoration: none; }
+#menu ul li {
+  position: relative;
+  display: inline-block;
+  overflow: hidden; }
+#menu ul li:hover, #menu ul li:focus {
+  outline: none; }
+#menu ul li a {
+  position: relative;
+  display: inline-block;
+  color: #333;
+  font-size: 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease; }
+#menu ul li a:before {
+  position: absolute;
+  top: 100%;
+  color: #009DDA;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+#menu ul li:hover a, #menu ul li:focus a {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%); }
+
 #main-content h1 {
   font-size: 36px;
   margin-bottom: 35px;

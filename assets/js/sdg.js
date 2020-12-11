@@ -3280,6 +3280,18 @@ indicatorController.prototype = {
 $(document).ready(function() {
     $('.nav-tabs').each(function() {
         var tabsList = $(this);
+
+        // Allow clicking on the <li> to trigger tab click.
+        tabsList.find('li').click(function(event) {
+            if (event.target.tagName === 'LI') {
+                $(event.target).find('> a').click();
+            }
+        });
+    });
+});
+$(document).ready(function() {
+    $('.nav-tabs').each(function() {
+        var tabsList = $(this);
         var tabs = tabsList.find('li > a');
         var panes = tabsList.parent().find('.tab-pane');
 

@@ -6,10 +6,6 @@ $( document ).ready(function() {
 });
 
 $( document ).ready(function() {
-  $('.zip-download-container').addClass('container');
-});
-
-$( document ).ready(function() {
   opensdg.chartConfigAlter(function(config, info) {
     var overrides = {
       options: {

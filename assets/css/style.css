@@ -2380,9 +2380,6 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 @media (min-width: 769px) {
   header .container {
     border-bottom: 2px solid; } }
-.navbar ul.navbar-nav > li > a {
-  font-weight: 600; }
-
 #main-content h1 {
   font-size: 36px;
   margin-bottom: 35px;

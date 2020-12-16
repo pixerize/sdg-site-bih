@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20201216175536">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20201216180100">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -467,7 +467,7 @@ var translations = {
   data-id="7-1-1"
   data-country="BiH"
   data-charttitle="Udio stanovništva sa pristupom električnoj energiji"
-  data-charttitles="null"
+  data-charttitles="[{&quot;series&quot;:&quot;SERIES.EG_ACS_ELEC&quot;,&quot;title&quot;:&quot;SERIES.EG_ACS_ELEC&quot;}]"
   data-measurementunit=""
   data-showdata="true"
   data-graphtype="bar"
@@ -522,6 +522,8 @@ var translations = {
 
   <div id="datatableFooter">
     
+    <p>Извор: UNSTATS</p>
+    
     
     
     
@@ -569,7 +571,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Udio stanovništva sa pristupom električnoj energiji</h4>
+          <h4 id="chart-heading" class="chart-title">SERIES.EG_ACS_ELEC</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -805,6 +807,9 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Извор:</dt>
+        <dd>UNSTATS</dd>
+        
 
         
 
@@ -840,6 +845,9 @@ opensdg.chartConfigAlter(function(config, info) {
 <div id="selectionTableFooter" class="table-footer-text">
   <h5 class="sr-only">Chart details</h5>
     <dl>
+        
+        <dt>Извор:</dt>
+        <dd>UNSTATS</dd>
         
 
         
@@ -1089,8 +1097,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/pixerize/sdg-data-bosnia/commit/31b4817188dab534219e09e8369456ec6ff7a9b2" target="_blank">
-                2020-12-10: see changes on GitHub <span class="visuallyhidden">отвара се у новом прозору</span>
+              <a href="https://github.com/pixerize/sdg-data-bosnia/commit/5458aacbef080effb4ef5490bffc90a762a2c27d" target="_blank">
+                2020-12-15: see changes on GitHub <span class="visuallyhidden">отвара се у новом прозору</span>
               </a>
             
 
@@ -1116,8 +1124,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/pixerize/sdg-data-bosnia/commit/34294b27b549f59f6014a6fe4ebe35eb1318b16e" target="_blank">
-                2020-12-10: see changes on GitHub <span class="visuallyhidden">отвара се у новом прозору</span>
+              <a href="https://github.com/pixerize/sdg-data-bosnia/commit/5458aacbef080effb4ef5490bffc90a762a2c27d" target="_blank">
+                2020-12-15: see changes on GitHub <span class="visuallyhidden">отвара се у новом прозору</span>
               </a>
             
 
@@ -1319,7 +1327,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">UN кустос агенција </th>
         <td>
           
-            <p>World Bank (WB)</p>
+            <p>World Bank Group</p>
 
           
         </td>
@@ -1338,6 +1346,10 @@ data-event-label="Change to Sources tab"
             
             
 
+            
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-01.pdf" target="_blank">
+                United Nations Sustainable Development Goals Metadata (PDF 212 KB) <span class="visuallyhidden">отвара се у новом прозору</span>
+              </a>
             
 
           
@@ -1511,7 +1523,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Организација </th>
         <td>
           
-            
+            <p>UNSTATS</p>
 
           
         </td>
@@ -1572,6 +1584,10 @@ data-event-label="Change to Sources tab"
             
             
 
+            
+              <a href="https://unstats.un.org/sdgs/indicators/database/" target="_blank">
+                Link to source <span class="visuallyhidden">отвара се у новом прозору</span>
+              </a>
             
 
           
@@ -1805,12 +1821,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20201216175536'></script>
+<script src='/assets/js/sdg.js?v=20201216180100'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20201216175536"></script><script>
+    <script src="/assets/js/custom.js?v=20201216180100"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

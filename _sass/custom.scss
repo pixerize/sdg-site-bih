@@ -48,16 +48,6 @@ $light-color: #009DDA;
     margin-top: 15px;
 }
 
-.contrast-high {
-
-    .standalone-indicator-list, .publications {
-        
-        li:nth-child(even) {
-            background: white;
-        }
-    }
-}
-
 .standalone-indicator-list,
 .publications {
     padding: 0;
@@ -79,6 +69,20 @@ $light-color: #009DDA;
         a:hover {
             padding-left: 5px;
             color: #009DDA;
+        }
+    }
+}
+
+.contrast-high {
+
+    .standalone-indicator-list, .publications {
+        
+        li {
+            background: #000;
+
+            a {
+                color: #fff;
+            }
         }
     }
 }

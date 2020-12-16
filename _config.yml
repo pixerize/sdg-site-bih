@@ -173,3 +173,7 @@ goal_image_extension: png
 accessible_tabs: true
 accessible_charts: true
 series_toggle: true
+
+data_fields:
+  series: SERIES
+  units: UNIT_MEASURE

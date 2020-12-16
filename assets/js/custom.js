@@ -33,6 +33,14 @@ $( document ).ready(function() {
     $.extend(true, config, overrides);
   });
 
+  opensdg.chartConfigAlter(function(config, info) {
+    // Force the "bar" type if there are less than 2 years of data.
+    if (config.type === 'line' && info.labels.length < 2) {
+      var overrides = {type: 'bar'}
+      $.extend(true, config, overrides);
+    }
+  });
+
   opensdg.tableConfigAlter(function(config, info) {
     config.columnDefs = [
       {

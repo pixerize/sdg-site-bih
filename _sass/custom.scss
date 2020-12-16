@@ -50,7 +50,7 @@ $light-color: #009DDA;
 
 .contrast-high {
 
-    .publications {
+    .standalone-indicator-list, .publications {
         
         li:nth-child(even) {
             background: white;

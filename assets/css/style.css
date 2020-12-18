@@ -2422,6 +2422,10 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
       padding-left: 5px;
       color: #009DDA; }
 
+.navbar-brand:focus {
+  outline: unset !important;
+  box-shadow: unset !important; }
+
 .contrast-high .standalone-indicator-list li, .contrast-high .publications li {
   background: #000; }
   .contrast-high .standalone-indicator-list li a, .contrast-high .publications li a {

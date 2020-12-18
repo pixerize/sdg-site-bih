@@ -73,6 +73,14 @@ $light-color: #009DDA;
     }
 }
 
+.navbar-brand { 
+    
+    &:focus {
+         outline: unset !important;
+         box-shadow: unset !important;
+    }
+}
+
 .contrast-high {
 
     .standalone-indicator-list, .publications {

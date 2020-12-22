@@ -67,9 +67,9 @@ analytics:
 
 # Replace the email addresses below.
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: sdg@bhas.gov.ba
+  suggestions: sdg@bhas.gov.ba
+  functional: sdg@bhas.gov.ba
 
 # International Support
 # Eg name: Australia and adjective: Australian

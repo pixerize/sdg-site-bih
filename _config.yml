@@ -122,7 +122,7 @@ menu:
     translation_key: custom.covid
 
 footer_menu:
-  - path: mailto:my-email-address@example.com
+  - path: mailto:sdg@bhas.gov.ba
     translation_key: menu.contact_us
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies

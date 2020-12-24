@@ -2386,7 +2386,10 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 
   .navbar-brand {
     display: block;
-    width: 69%; } }
+    width: 69%; }
+
+  .logo-and-mobile-widgets .mobile-widgets {
+    bottom: 20px; } }
 #main-content h1 {
   font-size: 36px;
   margin-bottom: 35px;
@@ -2433,7 +2436,9 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   outline: unset !important;
   box-shadow: unset !important; }
 
-.contrast-high .standalone-indicator-list li, .contrast-high .publications li {
+.contrast-high .standalone-indicator-list li,
+.contrast-high .publications li {
   background: #000; }
-  .contrast-high .standalone-indicator-list li a, .contrast-high .publications li a {
+  .contrast-high .standalone-indicator-list li a,
+  .contrast-high .publications li a {
     color: #fff; }

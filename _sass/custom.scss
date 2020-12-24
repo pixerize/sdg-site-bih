@@ -13,6 +13,17 @@ $light-color: #009DDA;
     }
 }
 
+@media (max-width: $bp-tablet) {
+    header .container {
+        padding-top: 0;
+    }
+    
+    .navbar-brand {
+        display: block;
+        width: 69%;
+    }
+}
+
 #main-content {
 
     h1 {

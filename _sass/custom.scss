@@ -17,10 +17,14 @@ $light-color: #009DDA;
     header .container {
         padding-top: 0;
     }
-    
+
     .navbar-brand {
         display: block;
         width: 69%;
+    }
+
+    .logo-and-mobile-widgets .mobile-widgets {
+        bottom: 20px;
     }
 }
 
@@ -84,18 +88,19 @@ $light-color: #009DDA;
     }
 }
 
-.navbar-brand { 
-    
+.navbar-brand {
+
     &:focus {
-         outline: unset !important;
-         box-shadow: unset !important;
+        outline: unset !important;
+        box-shadow: unset !important;
     }
 }
 
 .contrast-high {
 
-    .standalone-indicator-list, .publications {
-        
+    .standalone-indicator-list,
+    .publications {
+
         li {
             background: #000;
 

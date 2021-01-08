@@ -1,5 +1,5 @@
 ---
-title: ЦОВИД-19 епидемиолошки подаци
+title: COVID-19 епидемиолошки подаци
 layout: standalone-indicators
 permalink: /sr/covid-19-impact/
 language: sr

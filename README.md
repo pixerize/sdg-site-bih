@@ -1,6 +1,4 @@
-# Open SDG - Site starter
+# Open SDG - The Sustainable Development Goals (SDGs) for Bosnia and Herzegovina
 
-This is a starter repository to help in implementing the [Open SDG](https://github.com/open-sdg/open-sdg) platform. [See here for documentation](https://open-sdg.readthedocs.io).
-
-Live website BiH: https://sdg.bhas.gov.ba/
+Website BiH: https://sdg.bhas.gov.ba/
 

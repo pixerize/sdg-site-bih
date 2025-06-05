@@ -2,7 +2,7 @@
   {
     "goal": {
       "id": "1",
-      "title": "Okončati siromaštvo svuda i u svim oblicima",
+      "title": "global_goals.1-title",
       "indicators": [
         
         {
@@ -122,7 +122,7 @@
   {
     "goal": {
       "id": "2",
-      "title": "Okončati glad, postići sigurnost u opskrbi hranom, unaprijediti kvalitet ishrane i promovisati održivu poljoprivredu",
+      "title": "global_goals.2-title",
       "indicators": [
         
         {
@@ -234,7 +234,7 @@
   {
     "goal": {
       "id": "3",
-      "title": "Obezbijediti zdrav život i promovisati dobrobit svih ljudi, svih životnih dobi",
+      "title": "global_goals.3-title",
       "indicators": [
         
         {
@@ -466,7 +466,7 @@
   {
     "goal": {
       "id": "4",
-      "title": "Osigurati inkluzivno i kvalitetno obrazovanje i promovisati mogućnost cjeloživotnog učenja",
+      "title": "global_goals.4-title",
       "indicators": [
         
         {
@@ -570,7 +570,7 @@
   {
     "goal": {
       "id": "5",
-      "title": "Postići rodnu ravnopravnost i osnaživati sve žene i djevojčice",
+      "title": "global_goals.5-title",
       "indicators": [
         
         {
@@ -690,7 +690,7 @@
   {
     "goal": {
       "id": "6",
-      "title": "Osigurati sanitarne uslove i pristup pitkoj vodi za sve",
+      "title": "global_goals.6-title",
       "indicators": [
         
         {
@@ -786,7 +786,7 @@
   {
     "goal": {
       "id": "7",
-      "title": "Osigurati pristup materijalno pristupačnoj, pouzdanoj, održivoj i modernoj energiji za sve",
+      "title": "global_goals.7-title",
       "indicators": [
         
         {
@@ -842,7 +842,7 @@
   {
     "goal": {
       "id": "8",
-      "title": "Promovisati inkluzivan i održiv ekonomski rast, zaposlenost i dostojanstven rad za sve",
+      "title": "global_goals.8-title",
       "indicators": [
         
         {
@@ -978,7 +978,7 @@
   {
     "goal": {
       "id": "9",
-      "title": "Izgraditi izdržljivu infrastrukturu, promovisati održivu indistrijalizaciju i podsticati inovativnost",
+      "title": "global_goals.9-title",
       "indicators": [
         
         {
@@ -1082,7 +1082,7 @@
   {
     "goal": {
       "id": "10",
-      "title": "Smanjiti nejednakost između i unutar država",
+      "title": "global_goals.10-title",
       "indicators": [
         
         {
@@ -1194,7 +1194,7 @@
   {
     "goal": {
       "id": "11",
-      "title": "Učiniti gradove i naselja inkluzivnim, bezbjednim, izdržljivim i održivim",
+      "title": "global_goals.11-title",
       "indicators": [
         
         {
@@ -1322,7 +1322,7 @@
   {
     "goal": {
       "id": "12",
-      "title": "Osigurati održive obrasce potrošnje i proizvodnje",
+      "title": "global_goals.12-title",
       "indicators": [
         
         {
@@ -1434,7 +1434,7 @@
   {
     "goal": {
       "id": "13",
-      "title": "Preduzeti hitnu akciju u suzbijanju klimatskih promjena i njihovih posljedica",
+      "title": "global_goals.13-title",
       "indicators": [
         
         {
@@ -1498,7 +1498,7 @@
   {
     "goal": {
       "id": "14",
-      "title": "Zaštiti i održivo koristiti okeane, mora i morske resurse",
+      "title": "global_goals.14-title",
       "indicators": [
         
         {
@@ -1586,7 +1586,7 @@
   {
     "goal": {
       "id": "15",
-      "title": "Održivo upravljati šumama, suzbijati dezertifikaciju, zaustaviti i preokrenuti degradaciju zemljišta i spriječiti dalji gubitak biološke raznolikosti",
+      "title": "global_goals.15-title",
       "indicators": [
         
         {
@@ -1706,7 +1706,7 @@
   {
     "goal": {
       "id": "16",
-      "title": "Promovirati mirna i inkluzivna društva za održivi razvoj, osigurati pristup pravdi za sve i izgraditi efikasne, odgovorne i inkluzivne institucije na svim nivoima",
+      "title": "global_goals.16-title",
       "indicators": [
         
         {
@@ -1898,7 +1898,7 @@
   {
     "goal": {
       "id": "17",
-      "title": "Ojačati sredstva za provedbu i revitalizirati Globalno partnerstvo za održivi razvoj",
+      "title": "global_goals.17-title",
       "indicators": [
         
         {
